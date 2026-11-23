@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Post a Help Request | HELPHUB</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.php">
+    <div class="brand-icon">❤</div>
+    <span>HELP<span>HUB</span></span>
+  </a>
+  <nav class="nav-links">
+    <a href="../index.php">Home</a>
+    <a href="../requests/view.php">Find Help</a>
+    <a href="../offers/view.php">Offer Help</a>
+    <a href="../community/index.php">Community</a>
+    <a href="../messages/index.php">Messages</a>
+    <a href="../dashboard/index.php">Dashboard</a>
+  </nav>
+  <div class="nav-actions" id="navActions"></div>
+</header>
+
+<main class="section" style="max-width:750px;">
+  <div style="margin-bottom:28px;">
+    <span class="eyebrow">COMMUNITY SUPPORT • REQUEST</span>
+    <h1 style="font-size:32px; font-family:var(--font-heading);">Post a Help Request</h1>
+    <p style="color:var(--text-muted);">Fill in the details below. Our smart matching system will automatically notify top suited helpers nearby.</p>
+  </div>
+
+  <div class="card" style="padding:34px;">
+    <form id="createRequestForm">
+      <div style="margin-bottom:18px;">
+        <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Request Title *</label>
+        <input name="title" placeholder="e.g. Need urgent pickup of heart medication from pharmacy" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:18px;">
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Category *</label>
+          <select name="category_id" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+            <option value="1">📚 Education & Tutoring</option>
+            <option value="2">💻 Technology & IT</option>
+            <option value="3">🆘 Emergency Assistance</option>
+            <option value="4">🚗 Transport & Logistics</option>
+            <option value="5">🍱 Food & Groceries</option>
+            <option value="6">💼 Jobs & Career Guidance</option>
+            <option value="7">🔧 Household & Handyman</option>
+            <option value="8">🏥 Healthcare & Senior Care</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Urgency Level *</label>
+          <select name="urgency" id="urgencySelect" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+            <option value="normal">Normal (Within a few days)</option>
+            <option value="important">Important (Within 24-48 hours)</option>
+            <option value="urgent">Urgent (Needed today)</option>
+            <option value="emergency">🆘 Emergency (Immediate Crisis)</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:18px;">
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Location / Area *</label>
+          <input name="location" value="Bhopal" placeholder="e.g. Arera Colony, Bhopal" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+        </div>
+
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Date Needed *</label>
+          <input type="date" name="required_date" id="reqDate" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+        </div>
+      </div>
+
+      <div style="margin-bottom:18px;">
+        <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Skills or Equipment Required</label>
+        <input name="skills_required" placeholder="e.g. Two-wheeler vehicle, Laptop Hardware repair, Class 10 Math knowledge" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);">
+      </div>
+
+      <div style="margin-bottom:24px;">
+        <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Detailed Description *</label>
+        <textarea name="description" rows="5" placeholder="Explain the exact situation clearly. What happened? How can a helper assist you best?" style="width:100%; padding:14px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Publish Help Request →</button>
+    </form>
+  </div>
+</main>
+
+<script src="../assets/js/app.js"></script>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.get('urgency') === 'emergency') {
+  $('#urgencySelect').value = 'emergency';
+}
+$('#reqDate').value = new Date().toISOString().split('T')[0];
+
+$('#createRequestForm').onsubmit = async (e) => {
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  const payload = Object.fromEntries(fd.entries());
+
+  try {
+    const res = await apiFetch('../api/requests.php', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+    showToast(res.message || 'Help request created!', 'success');
+    setTimeout(() => {
+      location.href = `view.php?id=${res.data.id}`;
+    }, 800);
+  } catch (err) {
+    showToast(err.message || 'Error posting request', 'error');
+  }
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Help Requests | HELPHUB</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.php">
+    <div class="brand-icon">❤</div>
+    <span>HELP<span>HUB</span></span>
+  </a>
+  <nav class="nav-links">
+    <a href="../index.php">Home</a>
+    <a href="../requests/view.php" class="active">Find Help</a>
+    <a href="../offers/view.php">Offer Help</a>
+    <a href="../community/index.php">Community</a>
+    <a href="../messages/index.php">Messages</a>
+    <a href="../dashboard/index.php">Dashboard</a>
+  </nav>
+  <div class="nav-actions" id="navActions"></div>
+</header>
+
+<main class="section">
+  <!-- DYNAMIC CONTAINER -->
+  <div id="boardMainContainer">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">DISCOVERY & ASSISTANCE</span>
+        <h1>Find Community Help Requests</h1>
+        <p>Search active requests from neighbors who need urgent support, tutoring, equipment, or essential supplies.</p>
+      </div>
+      <a href="../requests/create.php" class="btn btn-primary">+ Post Help Request</a>
+    </div>
+
+    <!-- SEARCH & FILTER TOOLBAR -->
+    <div class="card" style="padding:20px; margin-bottom:28px;">
+      <div style="display:grid; grid-template-columns:1.8fr 1fr 1fr 1fr; gap:12px;">
+        <input type="text" id="findSearchInput" placeholder="Search by keywords, location, or skills..." style="padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);">
+        <select id="findCategoryFilter" style="padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);">
+          <option value="">All Categories</option>
+          <option value="1">📚 Education</option>
+          <option value="2">💻 Technology</option>
+          <option value="3">🆘 Emergency</option>
+          <option value="4">🚗 Transport</option>
+          <option value="5">🍱 Food & Groceries</option>
+          <option value="6">💼 Jobs & Career</option>
+          <option value="7">🔧 Household</option>
+          <option value="8">🏥 Healthcare</option>
+        </select>
+        <select id="findUrgencyFilter" style="padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);">
+          <option value="">All Urgencies</option>
+          <option value="emergency">🆘 Emergency Only</option>
+          <option value="urgent">Urgent</option>
+          <option value="important">Important</option>
+          <option value="normal">Normal</option>
+        </select>
+        <select id="findSortFilter" style="padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);">
+          <option value="newest">Sort: Newest First</option>
+          <option value="urgent">Sort: Urgency First</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="cards-grid" id="requestsResultsList">
+      <div style="text-align:center; padding:40px; grid-column:1/-1;">
+        <p style="color:var(--text-muted);">Loading help requests...</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="singleDetailContainer" class="hidden"></div>
+</main>
+
+<script src="../assets/js/app.js"></script>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const reqId = urlParams.get('id');
+
+async function loadHelpBoard() {
+  const q = $('#findSearchInput').value.trim();
+  const cat = $('#findCategoryFilter').value;
+  const urgency = $('#findUrgencyFilter').value;
+  const sort = $('#findSortFilter').value;
+
+  const params = new URLSearchParams();
+  if (q) params.set('q', q);
+  if (cat) params.set('category_id', cat);
+  if (urgency) params.set('urgency', urgency);
+  if (sort) params.set('sort', sort);
+
+  try {
+    const res = await apiFetch(`../api/requests.php?${params.toString()}`);
+    const container = $('#requestsResultsList');
+    if (!res.data || !res.data.requests || res.data.requests.length === 0) {
+      container.innerHTML = '<div style="text-align:center; padding:50px; grid-column:1/-1;"><h3>No matching requests found</h3></div>';
+      return;
+    }
+
+    container.innerHTML = res.data.requests.map(r => `
+      <article class="card">
+        <div>
+          <div class="card-top">
+            <span class="pill urgency-${r.urgency || 'normal'}">${(r.urgency || 'Normal').toUpperCase()}</span>
+            <span style="font-size:12px; color:var(--text-muted);">📍 ${r.location}</span>
+          </div>
+          <h3>${r.title}</h3>
+          <p class="desc">${r.description ? r.description.substring(0, 115) + '...' : ''}</p>
+        </div>
+        <div>
+          <div class="card-meta">
+            <span>👤 ${r.requester_name || 'Member'}</span>
+            <span>⭐ ${Number(r.requester_rating || 5).toFixed(1)}/5</span>
+          </div>
+          <div class="card-footer">
+            <a href="view.php?id=${r.id}" class="btn btn-outline btn-sm">View Details</a>
+            <button class="btn btn-primary btn-sm" onclick="openChatWithUser(${r.user_id}, '${r.requester_name}', ${r.id})">💬 Contact</button>
+          </div>
+        </div>
+      </article>
+    `).join('');
+  } catch (e) {}
+}
+
+async function loadSingleRequestDetail(id) {
+  $('#boardMainContainer').classList.add('hidden');
+  const container = $('#singleDetailContainer');
+  container.classList.remove('hidden');
+
+  try {
+    const res = await apiFetch(`../api/requests.php?id=${id}`);
+    const r = res.data.request;
+    const matches = res.data.matches || [];
+
+    container.innerHTML = `
+      <div style="display:grid; grid-template-columns:2fr 1fr; gap:30px;">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:14px;">
+            <div>
+              <a href="view.php" style="font-size:13px; color:var(--primary); font-weight:700;">← Back to Help Board</a>
+              <h1 style="font-size:28px; font-family:var(--font-heading); margin-top:8px;">${r.title}</h1>
+            </div>
+            <div style="display:flex; gap:8px;">
+              <span class="pill urgency-${r.urgency}">${r.urgency.toUpperCase()}</span>
+              <span class="pill" style="background:var(--bg-card-subtle);">${r.status.toUpperCase()}</span>
+            </div>
+          </div>
+
+          <div class="card" style="padding:28px; margin-bottom:24px;">
+            <div style="display:flex; gap:20px; font-size:13.5px; color:var(--text-muted); border-bottom:1px solid var(--border-color); padding-bottom:14px; margin-bottom:18px;">
+              <span>📂 <strong>${r.category_name}</strong></span>
+              <span>📍 <strong>${r.location}</strong></span>
+              <span>📅 Required by: <strong>${r.required_date || 'Flexible'}</strong></span>
+            </div>
+            <h4 style="font-size:16px; margin-bottom:8px;">Situation Description</h4>
+            <p style="font-size:15px; line-height:1.7; margin-bottom:20px; white-space:pre-line;">${r.description}</p>
+            ${r.skills_required ? `
+              <div style="margin-bottom:20px; background:var(--bg-card-subtle); padding:14px; border-radius:var(--radius-md);">
+                <strong style="font-size:13.5px; display:block; margin-bottom:4px;">Skills / Resources Needed:</strong>
+                <span style="font-size:14px; color:var(--primary);">${r.skills_required}</span>
+              </div>
+            ` : ''}
+            <div style="display:flex; gap:12px; border-top:1px solid var(--border-color); padding-top:18px;">
+              <button class="btn btn-primary" onclick="openChatWithUser(${r.user_id}, '${r.requester_name}', ${r.id})">💬 Contact Requester</button>
+            </div>
+          </div>
+
+          <div class="section-head" style="margin-bottom:16px;">
+            <div>
+              <h3>Smart Matched Helpers for this Request</h3>
+              <p style="color:var(--text-muted); font-size:13.5px;">Helpers matching category, skills, proximity, and trust score.</p>
+            </div>
+          </div>
+
+          <div style="display:grid; gap:14px;">
+            ${matches.map(m => `
+              <div class="card" style="padding:18px; flex-direction:row; align-items:center; justify-content:space-between;">
+                <div class="user-mini">
+                  <div class="avatar">${m.full_name ? m.full_name[0] : 'U'}</div>
+                  <div>
+                    <div style="display:flex; align-items:center; gap:8px;">
+                      <b style="font-size:15px;">${m.full_name}</b>
+                      <span class="match-badge">${m.match_label}</span>
+                    </div>
+                    <p style="font-size:12.5px; color:var(--text-muted);">
+                      ⭐ ${Number(m.rating).toFixed(1)}/5 • 📍 ${m.city} ${m.distance_km ? `(${m.distance_km} km away)` : ''} • ${m.helps_given || 0} helps delivered
+                    </p>
+                    <small style="color:var(--primary); font-size:12px;">Skills: ${m.skills || 'Volunteer'}</small>
+                  </div>
+                </div>
+                <div style="display:flex; gap:8px;">
+                  <a href="../profile/profile.php?id=${m.id}" class="btn btn-outline btn-sm">Profile</a>
+                  <button class="btn btn-primary btn-sm" onclick="openChatWithUser(${m.id}, '${m.full_name}', ${r.id})">💬 Contact</button>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="padding:24px; text-align:center;">
+            <div class="avatar avatar-lg" style="margin:0 auto 12px;">${r.requester_name ? r.requester_name[0] : 'U'}</div>
+            <h3 style="font-size:18px;">${r.requester_name}</h3>
+            <p style="color:var(--text-muted); font-size:13px; margin-bottom:12px;">@${r.requester_username}</p>
+            <div style="display:flex; justify-content:center; gap:8px; margin-bottom:16px;">
+              <span class="reputation-badge">⭐ ${r.requester_rating}/5</span>
+              <span class="pill" style="background:var(--primary-light); color:var(--primary);">${r.requester_city}</span>
+            </div>
+            <a href="../profile/profile.php?id=${r.user_id}" class="btn btn-outline btn-sm" style="width:100%;">View Public Profile</a>
+          </div>
+        </div>
+      </div>
+    `;
+  } catch (e) {}
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  if (reqId) {
+    loadSingleRequestDetail(reqId);
+  } else {
+    loadHelpBoard();
+    $('#findSearchInput').addEventListener('input', () => {
+      clearTimeout(window.searchTimeout);
+      window.searchTimeout = setTimeout(loadHelpBoard, 300);
+    });
+    $('#findCategoryFilter').addEventListener('change', loadHelpBoard);
+    $('#findUrgencyFilter').addEventListener('change', loadHelpBoard);
+    $('#findSortFilter').addEventListener('change', loadHelpBoard);
+  }
+});
+</script>
+</body>
+</html>

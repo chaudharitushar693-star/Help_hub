@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Offer Your Help | HELPHUB</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.php">
+    <div class="brand-icon">❤</div>
+    <span>HELP<span>HUB</span></span>
+  </a>
+  <nav class="nav-links">
+    <a href="../index.php">Home</a>
+    <a href="../requests/view.php">Find Help</a>
+    <a href="../offers/view.php" class="active">Offer Help</a>
+    <a href="../community/index.php">Community</a>
+    <a href="../messages/index.php">Messages</a>
+    <a href="../dashboard/index.php">Dashboard</a>
+  </nav>
+  <div class="nav-actions" id="navActions"></div>
+</header>
+
+<main class="section" style="max-width:750px;">
+  <div style="margin-bottom:28px;">
+    <span class="eyebrow">MUTUAL AID • VOLUNTEER</span>
+    <h1 style="font-size:32px; font-family:var(--font-heading);">Offer Your Skills & Assistance</h1>
+    <p style="color:var(--text-muted);">Share your knowledge, spare time, or tools with neighbors who need support. Earn verified reputation badges.</p>
+  </div>
+
+  <div class="card" style="padding:34px;">
+    <form id="createOfferForm">
+      <div style="margin-bottom:18px;">
+        <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Offer Title *</label>
+        <input name="title" placeholder="e.g. Free Laptop Hardware Diagnostics & Linux Installation for Students" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:18px;">
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Category *</label>
+          <select name="category_id" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+            <option value="1">📚 Education & Tutoring</option>
+            <option value="2">💻 Technology & IT</option>
+            <option value="3">🆘 Emergency Assistance</option>
+            <option value="4">🚗 Transport & Logistics</option>
+            <option value="5">🍱 Food & Groceries</option>
+            <option value="6">💼 Jobs & Career Guidance</option>
+            <option value="7">🔧 Household & Handyman</option>
+            <option value="8">🏥 Healthcare & Senior Care</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Availability *</label>
+          <input name="availability" placeholder="e.g. Weekends 10am-2pm, Evenings" value="Weekends & Flexible" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:18px;">
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Skills You Can Provide *</label>
+          <input name="skills" placeholder="e.g. Computer Repair, Software, OS Install" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+        </div>
+
+        <div>
+          <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Experience / Background</label>
+          <input name="experience" placeholder="e.g. 5+ years software engineer, certified tutor" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);">
+        </div>
+      </div>
+
+      <div style="margin-bottom:18px;">
+        <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Location / Area *</label>
+        <input name="location" value="Bhopal" placeholder="e.g. MP Nagar, Bhopal" style="width:100%; padding:12px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required>
+      </div>
+
+      <div style="margin-bottom:24px;">
+        <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:6px;">Offer Description & Terms *</label>
+        <textarea name="description" rows="5" placeholder="Detail how you can help, what tools you have, and who is eligible..." style="width:100%; padding:14px; border-radius:var(--radius-md); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main);" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Publish Help Offer →</button>
+    </form>
+  </div>
+</main>
+
+<script src="../assets/js/app.js"></script>
+<script>
+$('#createOfferForm').onsubmit = async (e) => {
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  const payload = Object.fromEntries(fd.entries());
+
+  try {
+    const res = await apiFetch('../api/offers.php', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+    showToast(res.message || 'Help offer published!', 'success');
+    setTimeout(() => {
+      location.href = `view.php`;
+    }, 800);
+  } catch (err) {
+    showToast(err.message || 'Error publishing offer', 'error');
+  }
+};
+</script>
+</body>
+</html>

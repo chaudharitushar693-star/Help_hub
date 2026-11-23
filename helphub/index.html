@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HELPHUB | Connect. Help. Make a Difference.</title>
+  <meta name="description" content="HelpHub - A full-stack social-help platform where people connect, offer skills, and resolve emergencies together.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+
+<!-- EMERGENCY TOP STRIP -->
+<div class="emergency-banner">
+  <span>🚨 <strong>Need Immediate Emergency Assistance?</strong> Post an urgent request or contact verified local volunteers.</span>
+  <a href="requests/create.php?urgency=emergency">🆘 Emergency Help →</a>
+</div>
+
+<!-- NAVBAR -->
+<header class="topbar">
+  <a class="brand" href="index.php">
+    <div class="brand-icon">❤</div>
+    <span>HELP<span>HUB</span></span>
+  </a>
+
+  <nav class="nav-links">
+    <a href="index.php" class="active">Home</a>
+    <a href="requests/view.php">Find Help</a>
+    <a href="offers/view.php">Offer Help</a>
+    <a href="community/index.php">Community</a>
+    <a href="messages/index.php">Messages</a>
+    <a href="dashboard/index.php">Dashboard</a>
+    <a href="presentation.html" target="_blank" style="color:var(--primary-color, #2563eb); font-weight:700;">🎓 College PPT</a>
+  </nav>
+
+  <div class="nav-actions" id="navActions">
+    <button class="icon-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">☾</button>
+    <a href="auth/login.php" class="btn btn-outline btn-sm">Login</a>
+    <a href="auth/register.php" class="btn btn-primary btn-sm">Register</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">COMMUNITY • MUTUAL AID • SAFETY</span>
+      <h1>People Helping People — <span>Connect & Make a Difference.</span></h1>
+      <p>Find nearby neighbors with the right skills, offer your expertise, and build a safer, resilient neighborhood community.</p>
+
+      <div class="hero-actions">
+        <a href="requests/view.php" class="btn btn-primary btn-lg">🔍 Find Help</a>
+        <a href="offers/create.php" class="btn btn-outline btn-lg">🤝 Offer Help</a>
+        <a href="requests/create.php?urgency=emergency" class="btn btn-emergency btn-lg">🆘 Emergency Request</a>
+        <a href="presentation.html" target="_blank" class="btn btn-outline btn-lg" style="border-color:#38bdf8; color:#38bdf8;">🎓 Presentation (12 Slides)</a>
+      </div>
+
+      <div class="live-badge">
+        <span>Verified Local Community Network • Over 1,280 Members Connected</span>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3 style="font-size:20px; margin-bottom:6px;">Live Community Activity</h3>
+      <p style="color:var(--text-muted); font-size:13.5px;">Real-time network impact across cities</p>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <b id="statUsersCount">1,280+</b>
+          <small>Active Members</small>
+        </div>
+        <div class="stat-box">
+          <b id="statRequestsCount">340+</b>
+          <small>Help Requests</small>
+        </div>
+        <div class="stat-box">
+          <b id="statHelpersCount">450+</b>
+          <small>Verified Helpers</small>
+        </div>
+        <div class="stat-box">
+          <b>98.4%</b>
+          <small>Satisfaction Rate</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" style="background:var(--bg-card); border-bottom:1px solid var(--border-color);">
+    <div class="section-head" style="text-align:center; display:block; margin-bottom:45px;">
+      <span class="eyebrow">STEP-BY-STEP PROCESS</span>
+      <h2>How HelpHub Works</h2>
+      <p>Safe, transparent, and direct peer-to-peer assistance in 5 simple steps.</p>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:24px; text-align:center;">
+      <div style="padding:20px;">
+        <div style="width:54px; height:54px; border-radius:50%; background:var(--primary-light); color:var(--primary); display:grid; place-items:center; font-size:22px; margin:0 auto 16px; font-weight:800;">1</div>
+        <h4 style="font-size:16px; margin-bottom:8px;">Create a Request</h4>
+        <p style="color:var(--text-muted); font-size:13.5px;">Specify what help you need, required date, urgency level, and skills.</p>
+      </div>
+
+      <div style="padding:20px;">
+        <div style="width:54px; height:54px; border-radius:50%; background:var(--primary-light); color:var(--primary); display:grid; place-items:center; font-size:22px; margin:0 auto 16px; font-weight:800;">2</div>
+        <h4 style="font-size:16px; margin-bottom:8px;">Smart Matching</h4>
+        <p style="color:var(--text-muted); font-size:13.5px;">Our algorithm automatically surfaces top rated helpers nearby with match scores.</p>
+      </div>
+
+      <div style="padding:20px;">
+        <div style="width:54px; height:54px; border-radius:50%; background:var(--primary-light); color:var(--primary); display:grid; place-items:center; font-size:22px; margin:0 auto 16px; font-weight:800;">3</div>
+        <h4 style="font-size:16px; margin-bottom:8px;">Connect via Chat</h4>
+        <p style="color:var(--text-muted); font-size:13.5px;">Coordinate logistics through instant private messaging safely.</p>
+      </div>
+
+      <div style="padding:20px;">
+        <div style="width:54px; height:54px; border-radius:50%; background:var(--primary-light); color:var(--primary); display:grid; place-items:center; font-size:22px; margin:0 auto 16px; font-weight:800;">4</div>
+        <h4 style="font-size:16px; margin-bottom:8px;">Get the Help</h4>
+        <p style="color:var(--text-muted); font-size:13.5px;">Mark the request accepted and in-progress until successfully completed.</p>
+      </div>
+
+      <div style="padding:20px;">
+        <div style="width:54px; height:54px; border-radius:50%; background:var(--primary-light); color:var(--primary); display:grid; place-items:center; font-size:22px; margin:0 auto 16px; font-weight:800;">5</div>
+        <h4 style="font-size:16px; margin-bottom:8px;">Rate & Review</h4>
+        <p style="color:var(--text-muted); font-size:13.5px;">Leave feedback and build verified community trust badges and points.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULAR CATEGORIES -->
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">BROWSE SECTORS</span>
+        <h2>Popular Help Categories</h2>
+      </div>
+      <a href="requests/view.php" class="btn btn-outline btn-sm">View All Categories →</a>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:18px;">
+      <a href="requests/view.php?category_id=1" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">📚</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Education & Tutoring</h4>
+        <p style="color:var(--text-muted); font-size:13px;">School, college tutoring, exam preparation, and book sharing.</p>
+      </a>
+      <a href="requests/view.php?category_id=2" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">💻</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Technology & IT</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Computer repair, software help, and device setup.</p>
+      </a>
+      <a href="requests/view.php?category_id=3" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">🆘</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Emergency Assistance</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Immediate urgent help, medical support, and local crisis relief.</p>
+      </a>
+      <a href="requests/view.php?category_id=4" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">🚗</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Transport & Logistics</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Ride shares, patient transit, and heavy goods movement.</p>
+      </a>
+      <a href="requests/view.php?category_id=5" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">🍱</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Food & Groceries</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Ration kits, cooked meal delivery, and emergency groceries.</p>
+      </a>
+      <a href="requests/view.php?category_id=6" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">💼</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Jobs & Career Guidance</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Resume reviews, mock interviews, and career counseling.</p>
+      </a>
+      <a href="requests/view.php?category_id=7" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">🔧</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Household & Handyman</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Plumbing, electrical fixing, elderly home maintenance.</p>
+      </a>
+      <a href="requests/view.php?category_id=8" class="card" style="padding:20px; cursor:pointer;">
+        <div style="font-size:32px; margin-bottom:12px;">🏥</div>
+        <h4 style="font-size:16px; margin-bottom:6px;">Healthcare & Senior Care</h4>
+        <p style="color:var(--text-muted); font-size:13px;">Elder care, wheelchair transport, medical guidance.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- RECENT HELP REQUESTS -->
+  <section class="section" style="background:var(--bg-card); border-top:1px solid var(--border-color); border-bottom:1px solid var(--border-color);">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">URGENT & ACTIVE</span>
+        <h2>Recent Help Requests</h2>
+      </div>
+      <a href="requests/create.php" class="btn btn-primary btn-sm">+ Post a Help Request</a>
+    </div>
+
+    <div class="cards-grid" id="homepageRecentRequests">
+      <div style="text-align:center; padding:40px; grid-column:1/-1;">
+        <p style="color:var(--text-muted);">Fetching live community requests...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE AID MAP -->
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">GEOGRAPHICAL AID</span>
+        <h2>Community Aid Map</h2>
+        <p>Visualize help requests and active helpers in your surrounding neighborhood.</p>
+      </div>
+      <div style="display:flex; gap:12px; align-items:center; font-size:13px; font-weight:700;">
+        <span>🟢 Available Helper</span>
+        <span>🔴 Help Needed</span>
+        <span>🟡 Urgent</span>
+      </div>
+    </div>
+
+    <div id="mapContainer"></div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section style="background:linear-gradient(135deg, var(--primary), #a855f7); color:#fff; padding:75px 5%; text-align:center;">
+    <h2 style="font-size:36px; font-family:var(--font-heading); margin-bottom:14px;">Ready to Make a Difference in Your City?</h2>
+    <p style="font-size:18px; max-width:620px; margin:0 auto 28px; opacity:0.95;">
+      Whether you can offer an hour of math tutoring, troubleshoot a student's laptop, or need urgent medicine delivery, HelpHub connects you immediately.
+    </p>
+    <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+      <a href="auth/register.php" class="btn btn-lg" style="background:#fff; color:var(--primary); font-weight:800;">Join HelpHub Today →</a>
+      <a href="requests/view.php" class="btn btn-outline btn-lg" style="background:rgba(255,255,255,0.15); color:#fff; border-color:rgba(255,255,255,0.4);">Browse Help Board</a>
+    </div>
+  </section>
+</main>
+
+<!-- GLOBAL FOOTER -->
+<footer style="background:var(--bg-card); border-top:1px solid var(--border-color); padding:50px 5% 30px; margin-top:60px;">
+  <div style="max-width:1300px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:40px; margin-bottom:40px;">
+    <div>
+      <div class="brand" style="margin-bottom:12px;">
+        <div class="brand-icon">❤</div>
+        <span>HELP<span>HUB</span></span>
+      </div>
+      <p style="color:var(--text-muted); font-size:14px; line-height:1.6;">
+        <strong>“Connect. Help. Make a Difference.”</strong><br>
+        A social-help network bridging individuals facing emergencies, tutoring needs, hardware repairs, and community volunteer projects.
+      </p>
+    </div>
+
+    <div>
+      <h4 style="font-size:16px; margin-bottom:14px;">Quick Links</h4>
+      <div style="display:flex; flex-direction:column; gap:8px; font-size:14px; color:var(--text-muted);">
+        <a href="requests/view.php">Find Help Requests</a>
+        <a href="offers/view.php">Browse Help Offers</a>
+        <a href="community/index.php">Community Stories</a>
+        <a href="requests/create.php?urgency=emergency">Emergency Assistance</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 style="font-size:16px; margin-bottom:14px;">Safety & Trust</h4>
+      <div style="display:flex; flex-direction:column; gap:8px; font-size:14px; color:var(--text-muted);">
+        <a href="#safety">Community Guidelines</a>
+        <a href="#privacy">Privacy & Approximate Location</a>
+        <a href="#reputation">Reputation & Badges</a>
+        <a href="admin/">Administrator Portal</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 style="font-size:16px; margin-bottom:14px;">Emergency Disclaimer</h4>
+      <p style="font-size:13px; color:var(--text-muted); line-height:1.5;">
+        For critical medical, police, or life-threatening emergencies, please immediately dial national emergency authorities (112 / 108). HelpHub complements community aid.
+      </p>
+    </div>
+  </div>
+
+  <div style="text-align:center; border-top:1px solid var(--border-color); padding-top:20px; font-size:13px; color:var(--text-muted);">
+    © 2026 HELPHUB Platform • Built with PHP 8, MySQL & Vanilla JS • Production Full-Stack Edition
+  </div>
+</footer>
+
+<!-- MOBILE BOTTOM NAVIGATION -->
+<nav class="bottom-nav">
+  <a href="index.php" class="active">
+    <span style="font-size:18px;">🏠</span>
+    <span>Home</span>
+  </a>
+  <a href="requests/view.php">
+    <span style="font-size:18px;">🔎</span>
+    <span>Find</span>
+  </a>
+  <a href="requests/create.php" style="background:var(--primary); color:#fff; width:38px; height:38px; border-radius:50%; display:grid; place-items:center; margin-top:-14px; box-shadow:0 4px 10px var(--primary-glow);">
+    <span style="font-size:20px; color:#fff;">+</span>
+  </a>
+  <a href="messages/index.php">
+    <span style="font-size:18px;">💬</span>
+    <span>Chat</span>
+  </a>
+  <a href="dashboard/index.php">
+    <span style="font-size:18px;">👤</span>
+    <span>Me</span>
+  </a>
+</nav>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/app.js"></script>
+
+<script>
+async function loadHomeRequests() {
+  try {
+    const res = await apiFetch('api/requests.php');
+    const container = $('#homepageRecentRequests');
+    if (!container) return;
+
+    if (!res.data || !res.data.requests || res.data.requests.length === 0) {
+      container.innerHTML = '<div style="text-align:center; padding:30px; grid-column:1/-1;">No requests posted yet.</div>';
+      return;
+    }
+
+    container.innerHTML = res.data.requests.slice(0, 6).map(r => {
+      const urgencyClass = `urgency-${r.urgency || 'normal'}`;
+      return `
+        <article class="card">
+          <div>
+            <div class="card-top">
+              <span class="pill ${urgencyClass}">${(r.urgency || 'Normal').toUpperCase()}</span>
+              <span style="font-size:12px; color:var(--text-muted);">📍 ${r.location || r.requester_city}</span>
+            </div>
+            <h3>${r.title}</h3>
+            <p class="desc">${r.description ? r.description.substring(0, 110) + '...' : ''}</p>
+          </div>
+          <div>
+            <div class="card-meta">
+              <span>👤 ${r.requester_name || 'Community Member'}</span>
+              <span>⭐ ${Number(r.requester_rating || 5).toFixed(1)}/5</span>
+            </div>
+            <div class="card-footer">
+              <a href="requests/view.php?id=${r.id}" class="btn btn-outline btn-sm">View Details</a>
+              <button class="btn btn-primary btn-sm" onclick="openChatWithUser(${r.user_id}, '${r.requester_name}', ${r.id})">💬 Contact</button>
+            </div>
+          </div>
+        </article>
+      `;
+    }).join('');
+  } catch (e) {}
+}
+
+function initMap() {
+  const mapEl = $('#mapContainer');
+  if (!mapEl || typeof L === 'undefined') return;
+
+  const map = L.map('mapContainer').setView([23.2599, 77.4126], 12);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  const markers = [
+    { lat: 23.2180, lon: 77.4270, type: 'emergency', title: 'Urgent Medicines Needed', desc: 'Arera Colony - Blood pressure medicines needed urgently.' },
+    { lat: 23.2384, lon: 77.4320, type: 'helper', title: 'Rahul Sharma (Computer Repair)', desc: 'MP Nagar - Available for free student laptop troubleshooting.' },
+    { lat: 23.2156, lon: 77.4089, type: 'helper', title: 'Priya Nair (Math Tutor)', desc: 'Arera Colony - Offering weekend science and math coaching.' },
+    { lat: 23.1750, lon: 77.4190, type: 'urgent', title: 'Monthly Ration Kit Needed', desc: 'Kolar Road - Grocery support needed for construction worker family.' }
+  ];
+
+  markers.forEach(m => {
+    const color = m.type === 'emergency' ? 'red' : (m.type === 'urgent' ? 'orange' : 'green');
+    const marker = L.circleMarker([m.lat, m.lon], {
+      radius: 9,
+      fillColor: color,
+      color: '#ffffff',
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0.85
+    }).addTo(map);
+
+    marker.bindPopup(`
+      <div style="font-family:sans-serif; min-width:180px;">
+        <strong style="font-size:14px; display:block; margin-bottom:4px;">${m.title}</strong>
+        <p style="font-size:12px; margin:0 0 6px; color:#555;">${m.desc}</p>
+        <span style="font-size:11px; font-weight:bold; color:${color}; text-transform:uppercase;">${m.type}</span>
+      </div>
+    `);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadHomeRequests();
+  setTimeout(initMap, 500);
+});
+</script>
+</body>
+</html>

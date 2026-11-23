@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELPHUB — College Project Presentation (15 Slides Structure)</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤝</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-canvas: #090d16;
+            --bg-slide: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --bg-card-hover: rgba(51, 65, 85, 0.8);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --primary: #2563eb;
+            --primary-light: #38bdf8;
+            --primary-glow: rgba(37, 99, 235, 0.35);
+            --accent: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        [data-theme="light"] {
+            --bg-canvas: #e2e8f0;
+            --bg-slide: #ffffff;
+            --bg-card: #f8fafc;
+            --bg-card-hover: #f1f5f9;
+            --border-color: #cbd5e1;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --primary: #2563eb;
+            --primary-light: #0284c7;
+            --primary-glow: rgba(37, 99, 235, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            user-select: none;
+        }
+
+        /* Top Bar */
+        .top-nav {
+            height: 56px;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1.5rem;
+            z-index: 100;
+        }
+
+        .brand-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-weight: 800;
+            font-size: 1.15rem;
+            letter-spacing: -0.02em;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .brand-badge span {
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            font-weight: 500;
+            background: rgba(255,255,255,0.08);
+            padding: 2px 8px;
+            border-radius: 999px;
+            margin-left: 6px;
+        }
+
+        .nav-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+        }
+
+        .btn-ctrl {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+            font-family: inherit;
+            text-decoration: none;
+        }
+
+        .btn-ctrl:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: var(--primary-light);
+            transform: translateY(-1px);
+        }
+
+        .btn-ctrl.active {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+
+        .btn-ctrl.download-btn {
+            background: #10b981;
+            color: #ffffff;
+            border-color: #10b981;
+            font-weight: 700;
+        }
+        .btn-ctrl.download-btn:hover {
+            background: #059669;
+            border-color: #059669;
+        }
+
+        .btn-ctrl kbd {
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            background: rgba(0,0,0,0.3);
+            padding: 1px 5px;
+            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+
+        /* Slide Stage */
+        .stage-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.25rem 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .deck-wrapper {
+            width: 100%;
+            max-width: 1320px;
+            aspect-ratio: 16 / 9;
+            max-height: calc(100vh - 110px);
+            background: var(--bg-slide);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.6), 0 0 40px var(--primary-glow);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide {
+            position: absolute;
+            inset: 0;
+            padding: 2.5rem 3.25rem;
+            display: flex;
+            flex-direction: column;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateX(40px) scale(0.98);
+            transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            overflow-y: auto;
+        }
+
+        .slide.active {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateX(0) scale(1);
+            z-index: 2;
+        }
+
+        .slide.prev {
+            transform: translateX(-40px) scale(0.98);
+        }
+
+        /* Slide Typography & Elements */
+        .slide-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #38bdf8;
+            margin-bottom: 0.3rem;
+        }
+
+        .slide-title {
+            font-size: 2.1rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 0.4rem;
+            background: linear-gradient(135deg, #ffffff 30%, #94a3b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        [data-theme="light"] .slide-title {
+            background: linear-gradient(135deg, #0f172a 30%, #334155 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .slide-subtitle {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-weight: 500;
+        }
+
+        /* Grid Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.25rem;
+            flex: 1;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.15rem;
+            flex: 1;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            flex: 1;
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.15rem 1.3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.55rem;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(8px);
+            transition: all 0.2s ease;
+        }
+
+        .feature-card:hover {
+            border-color: rgba(56, 189, 248, 0.4);
+            transform: translateY(-2px);
+            background: var(--bg-card-hover);
+        }
+
+        .card-icon {
+            font-size: 1.6rem;
+            line-height: 1;
+            margin-bottom: 0.1rem;
+        }
+
+        .card-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #38bdf8;
+            letter-spacing: -0.01em;
+        }
+
+        .card-desc {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .card-desc ul {
+            padding-left: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Table Design */
+        .pres-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.86rem;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .pres-table th {
+            background: rgba(30, 41, 59, 0.95);
+            color: #38bdf8;
+            text-align: left;
+            padding: 0.7rem 0.9rem;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .pres-table td {
+            padding: 0.65rem 0.9rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-muted);
+            line-height: 1.35;
+        }
+
+        .pres-table tr:hover td {
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--text-main);
+        }
+
+        .badge-pill {
+            display: inline-block;
+            padding: 2px 7px;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .badge-pill.success { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+        .badge-pill.info { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+        .badge-pill.warning { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
+
+        /* Slide 1 Hero Specific */
+        .hero-title-box {
+            margin: auto 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+        }
+
+        .hero-title-box h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #ffffff 0%, #38bdf8 50%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-tagline {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #38bdf8;
+            letter-spacing: -0.01em;
+        }
+
+        .meta-strip {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-top: 1.5rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .meta-label {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .meta-val {
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        /* Slide Footer & Progress */
+        .deck-footer {
+            height: 44px;
+            background: rgba(15, 23, 42, 0.75);
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            z-index: 10;
+        }
+
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #2563eb, #38bdf8);
+            transition: width 0.3s ease;
+            z-index: 20;
+        }
+
+        /* Speaker Notes Panel */
+        .notes-drawer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 180px;
+            background: rgba(10, 15, 29, 0.96);
+            backdrop-filter: blur(16px);
+            border-top: 2px solid #38bdf8;
+            box-shadow: 0 -15px 40px rgba(0,0,0,0.5);
+            padding: 1.25rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            transform: translateY(100%);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 150;
+        }
+
+        .notes-drawer.open {
+            transform: translateY(0);
+        }
+
+        .notes-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #38bdf8;
+        }
+
+        .notes-content {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #cbd5e1;
+            overflow-y: auto;
+            font-weight: 400;
+        }
+
+        /* Slide Selector Modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            z-index: 200;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .modal-overlay.open {
+            display: flex;
+        }
+
+        .modal-box {
+            background: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            width: 100%;
+            max-width: 900px;
+            max-height: 82vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+        }
+
+        .modal-header {
+            padding: 1.15rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.15rem;
+        }
+
+        .slide-list-grid {
+            padding: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.9rem;
+            overflow-y: auto;
+        }
+
+        .slide-card-item {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .slide-card-item:hover {
+            border-color: #38bdf8;
+            background: rgba(56, 189, 248, 0.1);
+        }
+
+        .slide-card-item.active {
+            border-color: #2563eb;
+            background: rgba(37, 99, 235, 0.2);
+        }
+
+        .slide-card-num {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: #38bdf8;
+            margin-bottom: 0.25rem;
+        }
+
+        .slide-card-title {
+            font-size: 0.88rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        /* Printable / Export PDF Mode */
+        @media print {
+            body {
+                background: #ffffff !important;
+                color: #000000 !important;
+                height: auto !important;
+                overflow: visible !important;
+            }
+            .top-nav, .deck-footer, .progress-bar, .notes-drawer, .modal-overlay {
+                display: none !important;
+            }
+            .stage-container {
+                padding: 0 !important;
+                display: block !important;
+            }
+            .deck-wrapper {
+                max-width: 100% !important;
+                box-shadow: none !important;
+                border: none !important;
+                aspect-ratio: auto !important;
+                height: auto !important;
+            }
+            .slide {
+                position: relative !important;
+                opacity: 1 !important;
+                transform: none !important;
+                page-break-after: always !important;
+                height: 100vh !important;
+                box-sizing: border-box !important;
+                padding: 3rem !important;
+                background: #ffffff !important;
+                border-bottom: 2px solid #ccc;
+            }
+            .slide-title {
+                color: #000000 !important;
+                -webkit-text-fill-color: #000000 !important;
+            }
+            .feature-card, .workflow-node, .pres-table th, .formula-box {
+                background: #f8fafc !important;
+                color: #0f172a !important;
+                border: 1px solid #cbd5e1 !important;
+            }
+            .card-title, .step-label {
+                color: #0f172a !important;
+            }
+            .card-desc, .step-sub, .pres-table td {
+                color: #334155 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation Controls -->
+    <header class="top-nav">
+        <a href="index.html" class="brand-badge" title="Go to HelpHub Application">
+            🤝 HELPHUB <span>15-Slide Presentation</span>
+        </a>
+
+        <div class="nav-controls">
+            <a href="helphub_complete_project.zip" download="helphub_complete_project.zip" class="btn-ctrl" style="background:#f59e0b; color:#fff; font-weight:700; border-color:#f59e0b;" title="Download Full Project Source Code + Presentations (.ZIP)">
+                📦 Full Project (.ZIP)
+            </a>
+            <a href="helphub_presentation.pptx" download="helphub_presentation.pptx" class="btn-ctrl" style="background:#2563eb; color:#fff; font-weight:700; border-color:#2563eb;" title="Download Official PowerPoint (.pptx) Presentation">
+                📊 Download PPTX
+            </a>
+            <a href="helphub_presentation.pdf" download="helphub_presentation.pdf" class="btn-ctrl download-btn" title="Download Official 15-Slide PDF">
+                📥 Download PDF (15 Slides)
+            </a>
+            <button class="btn-ctrl" id="btnLiveDemo" onclick="window.open('index.html', '_blank')">
+                🚀 Live App Demo
+            </button>
+            <button class="btn-ctrl" id="btnSlideList" onclick="toggleSlideListModal()">
+                📑 Slides <kbd>G</kbd>
+            </button>
+            <button class="btn-ctrl" id="btnNotes" onclick="toggleNotesDrawer()">
+                🎙️ Notes <kbd>S</kbd>
+            </button>
+            <button class="btn-ctrl" id="btnTheme" onclick="toggleTheme()">
+                🌓 Theme
+            </button>
+            <button class="btn-ctrl" id="btnPrint" onclick="window.print()" title="Print to PDF">
+                🖨️ Print
+            </button>
+            <button class="btn-ctrl" id="btnFullscreen" onclick="toggleFullscreen()">
+                ⛶ Fullscreen <kbd>F</kbd>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Slide Stage -->
+    <main class="stage-container">
+        <div class="deck-wrapper">
+            
+            <!-- Slide 1: Title Slide -->
+            <div class="slide active" data-index="1" data-notes="Respected members of the evaluation committee and guide, welcome to the presentation of our final year project HELPHUB — a full-stack social-help and community mutual aid platform. The motto of our project is: 'Connect. Help. Make a Difference.'">
+                <div class="hero-title-box">
+                    <div class="slide-tag">Slide 1 of 15 • Major Capstone Project Presentation</div>
+                    <h1>HELPHUB</h1>
+                    <div class="hero-tagline">“Connect. Help. Make a Difference.”</div>
+                    <p class="slide-subtitle" style="max-width: 820px; margin-bottom: 0;">
+                        A Full-Stack Community Mutual Aid Platform with Dynamic Smart Matching, Real-Time Messaging, Geolocation Aid Map, and Gamified Trust Scoring.
+                    </p>
+                </div>
+
+                <div class="meta-strip">
+                    <div class="meta-item">
+                        <span class="meta-label">Presented By</span>
+                        <span class="meta-val" contenteditable="true" title="Click to edit">Tushar Chaudhari</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Roll Number & Semester</span>
+                        <span class="meta-val" contenteditable="true">Roll No: CS-FINAL • Sem VIII</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Project Guide / Mentor</span>
+                        <span class="meta-val" contenteditable="true">Prof. Project Guide Name</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Department & College</span>
+                        <span class="meta-val" contenteditable="true">Computer Science & Engineering</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Introduction -->
+            <div class="slide" data-index="2" data-notes="Slide 2 presents the Introduction. HelpHub is a civic-tech web platform designed to connect people in need with nearby verified volunteers. It bridges community gaps by turning neighborhood goodwill into structured, trackable, and safe interactions without charging commercial commissions.">
+                <div class="slide-tag">Slide 2 of 15 • Introduction</div>
+                <h2 class="slide-title">Introduction & Project Overview</h2>
+                <div class="slide-subtitle">Brief introduction and conceptual overview of the HELPHUB mutual aid platform</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-icon">🤝</div>
+                        <div class="card-title">What is HELPHUB?</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li>A web-based hyperlocal social-help and mutual aid platform.</li>
+                                <li>Allows citizens to ask for assistance, offer volunteering skills, and find nearby helpers.</li>
+                                <li>Eliminates intermediaries and commercial gig commissions.</li>
+                                <li>Provides a safe, verified channel during personal and neighborhood crises.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🎯</div>
+                        <div class="card-title">Core Vision & Philosophy</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Neighborhood Solidarity:</strong> Reviving community cooperation and volunteerism.</li>
+                                <li><strong>Privacy First:</strong> Direct communication without exposing personal phone numbers.</li>
+                                <li><strong>Gamified Trust:</strong> Incentivizing honest assistance through badges and points.</li>
+                                <li><strong>Universal Access:</strong> Fully responsive on Mobile, Tablet, and Desktop.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" style="margin-top: 1rem;">
+                    <div class="card-title">Key Pillars of the System</div>
+                    <div class="card-desc" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 0.3rem;">
+                        <div>⚡ <strong>Instant Triage:</strong> 4 urgency tiers</div>
+                        <div>🧠 <strong>Smart Match:</strong> 0-99% suitability</div>
+                        <div>💬 <strong>Private Chat:</strong> Read receipts & blocks</div>
+                        <div>🗺️ <strong>Aid Map:</strong> Visual OpenStreetMap</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Problem Statement -->
+            <div class="slide" data-index="3" data-notes="Slide 3 covers the Problem Statement. Today, when people need immediate help, they post in WhatsApp or Facebook groups. This causes acute problems: messages get buried, scams happen due to unverified profiles, personal phone numbers get leaked, and skilled volunteers have no structured way to discover nearby needs.">
+                <div class="slide-tag">Slide 3 of 15 • Problem Statement</div>
+                <h2 class="slide-title">Problem Statement & Community Challenges</h2>
+                <div class="slide-subtitle">Analysis of real-world bottlenecks identified in existing community communication channels</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-icon">🚨</div>
+                        <div class="card-title">1. Fragmented Communication in Crises</div>
+                        <div class="card-desc">
+                            In acute emergencies (blood donation, medication shortages, vehicle breakdowns, elderly assistance), SOS posts get lost under non-urgent chit-chat in social media groups with zero spatial categorization.
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🛡️</div>
+                        <div class="card-title">2. Rampant Spam & Lack of Verified Trust</div>
+                        <div class="card-desc">
+                            WhatsApp and Telegram groups suffer from anonymous accounts, fake fundraisers, and malicious spam. Requesters have no way to verify the background or safety of respondents before inviting them for help.
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🧩</div>
+                        <div class="card-title">3. Underutilized Local Skills</div>
+                        <div class="card-desc">
+                            Skilled neighbors (programmers, electricians, teachers, medical students) are eager to volunteer spare hours, but have no structured platform to advertise their capabilities or locate nearby requests.
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🔄</div>
+                        <div class="card-title">4. Zero Request Lifecycle Tracking</div>
+                        <div class="card-desc">
+                            Once an emergency request is resolved, the post remains open, wasting volunteer time. There is no status tracking, no mutual accountability, and no feedback mechanism to reward honest helpers.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Objectives -->
+            <div class="slide" data-index="4" data-notes="Slide 4 outlines our core Objectives. We set out to engineer a complete, secure, full-stack platform with smart algorithmic matching, real-time private messaging, gamified reputation points, and an interactive crisis map to address all the limitations of existing groups.">
+                <div class="slide-tag">Slide 4 of 15 • Objectives</div>
+                <h2 class="slide-title">Objectives of the Project</h2>
+                <div class="slide-subtitle">Clear functional, technical, and social goals achieved by the HELPHUB platform</div>
+
+                <div class="grid-3">
+                    <div class="feature-card">
+                        <div class="card-icon">🎯</div>
+                        <div class="card-title">Functional Goals</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li>Enable users to post and discover requests with 4 urgency tiers.</li>
+                                <li>Publish ongoing volunteer skill offers.</li>
+                                <li>Facilitate private real-time chat with read receipts.</li>
+                                <li>Track requests from Open to In Progress to Completed.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🧠</div>
+                        <div class="card-title">Algorithmic Goals</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li>Calculate a dynamic 0-99% match score using Haversine distance.</li>
+                                <li>Tokenize required skills vs helper competencies.</li>
+                                <li>Weight candidate rating and past volunteer history.</li>
+                                <li>Deliver real-time ranking without database latency.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🔒</div>
+                        <div class="card-title">Safety & Trust Goals</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li>Protect phone numbers via in-app chat.</li>
+                                <li>Enforce mutual 1-5 star reviews post completion.</li>
+                                <li>Prevent review duplication via database constraints.</li>
+                                <li>Empower admins with real-time audit telemetry.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" style="margin-top: 1rem;">
+                    <div class="card-title">Engineering Goal</div>
+                    <div class="card-desc">
+                        Build a <strong>Dual-Backend Architecture</strong> (PHP 8/MySQL & Python 3/SQLite) ensuring 100% portable zero-dependency execution across any operating system.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Existing System -->
+            <div class="slide" data-index="5" data-notes="Slide 5 compares existing solutions with HelpHub. Existing social media lacks indexing, privacy, and accountability, while commercial gig apps like TaskRabbit charge heavy commissions and exclude free community aid. HelpHub bridges this gap.">
+                <div class="slide-tag">Slide 5 of 15 • Existing System</div>
+                <h2 class="slide-title">Existing Systems & Their Limitations</h2>
+                <div class="slide-subtitle">Comparative benchmark illustrating why existing platforms fail community mutual aid</div>
+
+                <table class="pres-table">
+                    <thead>
+                        <tr>
+                            <th>Evaluation Parameter</th>
+                            <th>Social Media (WhatsApp/FB)</th>
+                            <th>Commercial Gig Apps (TaskRabbit)</th>
+                            <th>HELPHUB (Our Solution)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Service Model</strong></td>
+                            <td>Unstructured Social Network</td>
+                            <td>Commercial Paid Gigs (15-30% Fee)</td>
+                            <td><span class="badge-pill success">100% Free Mutual Aid</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Proximity Indexing</strong></td>
+                            <td>None (Random Feed Stream)</td>
+                            <td>Coarse City / Zip Radius</td>
+                            <td><span class="badge-pill info">Haversine Distance (0.7 km)</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Privacy & Identity</strong></td>
+                            <td>Phone Numbers Publicly Exposed</td>
+                            <td>Masked Commercial Numbers</td>
+                            <td><span class="badge-pill success">Private Chat; 0 Phone Leak</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Smart Matching</strong></td>
+                            <td>None (Manual Reading)</td>
+                            <td>Commercial Paid Promotion</td>
+                            <td><span class="badge-pill info">Dynamic 0–99% Compatibility</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Urgency Triage</strong></td>
+                            <td>None (Emergency = Casual Chat)</td>
+                            <td>Fixed Business SLA Only</td>
+                            <td><span class="badge-pill warning">4 Tiers + OpenStreetMap Triage</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Review Integrity</strong></td>
+                            <td>No Reviews Possible</td>
+                            <td>Biased Commercial Ratings</td>
+                            <td><span class="badge-pill success">Mutual Post-Completion Check</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Slide 6: Proposed System -->
+            <div class="slide" data-index="6" data-notes="Slide 6 details our Proposed System. HelpHub introduces a complete 5-step lifecycle: publishing needs, smart matching, private communication, task completion, and gamified reviews.">
+                <div class="slide-tag">Slide 6 of 15 • Proposed System</div>
+                <h2 class="slide-title">Proposed System & Key Advantages</h2>
+                <div class="slide-subtitle">Architecture of the proposed end-to-end mutual aid ecosystem and its advantages</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-icon">🚀</div>
+                        <div class="card-title">The 5-Step Lifecycle Workflow</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>1. Publish:</strong> User creates categorized request with urgency tier.</li>
+                                <li><strong>2. Smart Match:</strong> Algorithm scores local helpers dynamically.</li>
+                                <li><strong>3. Coordinate:</strong> Requester opens private chat without phone leaks.</li>
+                                <li><strong>4. Execution:</strong> Helper completes assistance; status marked Completed.</li>
+                                <li><strong>5. Mutual Trust:</strong> Both parties exchange 1-5 star reviews & points.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">⭐</div>
+                        <div class="card-title">Key System Advantages</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Structured Accountability:</strong> Status transitions audited in database.</li>
+                                <li><strong>Geo-Spatial Awareness:</strong> OpenStreetMap visual markers (Green/Red/Yellow).</li>
+                                <li><strong>Fraud Prevention:</strong> Reviews unlocked only on task completion.</li>
+                                <li><strong>Gamification:</strong> Badges (New Helper, Trusted Helper, Community Hero).</li>
+                                <li><strong>Moderation:</strong> 1-click user blocking and admin abuse queues.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Technology Used -->
+            <div class="slide" data-index="7" data-notes="Slide 7 presents the Technology Stack. We designed a modern, robust architecture: HTML5, CSS3 Custom Properties for Light/Dark themes, ES6+ Vanilla JS, PHP 8+ PDO and Python 3 standalone backends, MySQL and SQLite 3NF relational databases, and Leaflet.js.">
+                <div class="slide-tag">Slide 7 of 15 • Technology Used</div>
+                <h2 class="slide-title">Technology Stack & Development Tools</h2>
+                <div class="slide-subtitle">Modern full-stack technologies utilized across frontend, backend, database, and dev tooling</div>
+
+                <div class="grid-3">
+                    <div class="feature-card">
+                        <div class="card-title">🎨 Frontend Presentation</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>HTML5:</strong> Semantic modern document layout.</li>
+                                <li><strong>CSS3:</strong> Variables design system, Light/Dark modes.</li>
+                                <li><strong>Vanilla JavaScript (ES6+):</strong> Clean, zero bloated libraries.</li>
+                                <li><strong>Fetch API:</strong> Asynchronous AJAX without page refresh.</li>
+                                <li><strong>Leaflet.js:</strong> Interactive mobile-friendly OpenStreetMap.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-title">⚡ Backend Controllers</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Stack A (Enterprise):</strong> PHP 8.1+ with PDO prepared statements.</li>
+                                <li><strong>Stack B (Standalone):</strong> Python 3 native HTTP engine.</li>
+                                <li><strong>RESTful API:</strong> Standardized JSON responses (/api/*.php).</li>
+                                <li><strong>Security:</strong> Bcrypt password_hash and password_verify.</li>
+                                <li><strong>Session Auth:</strong> Token-based session management.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-title">🗄️ Relational Database</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>MySQL 8.0+:</strong> Production relational database.</li>
+                                <li><strong>SQLite 3:</strong> Portable embedded ACID storage.</li>
+                                <li><strong>Normalization:</strong> 17 tables structured in 3NF.</li>
+                                <li><strong>Integrity:</strong> Foreign keys with CASCADE constraints.</li>
+                                <li><strong>Uniqueness:</strong> Composite keys preventing review spam.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: System Requirements -->
+            <div class="slide" data-index="8" data-notes="Slide 8 details the Hardware and Software Requirements. The platform is lightweight, requiring only 4 GB RAM and 200 MB disk space, and runs smoothly on macOS, Windows, Linux, Android, and iOS browsers.">
+                <div class="slide-tag">Slide 8 of 15 • System Requirements</div>
+                <h2 class="slide-title">System Requirements (Hardware & Software)</h2>
+                <div class="slide-subtitle">Specifications for deployment environment and client-side operating devices</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-title">🖥️ Hardware Requirements</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Processor:</strong> Dual Core 2.0 GHz or higher (Intel, AMD, Apple M-Series).</li>
+                                <li><strong>System RAM:</strong> 4 GB minimum (8 GB recommended for concurrent operations).</li>
+                                <li><strong>Hard Disk Space:</strong> 200 MB free storage for code, database, and uploads.</li>
+                                <li><strong>Display:</strong> 1024 x 768 minimum resolution (Fluid responsive on Mobile).</li>
+                                <li><strong>Network:</strong> Standard internet connection for OpenStreetMap tile rendering.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-title">💻 Software Requirements</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Client OS:</strong> Windows 10/11, macOS Monterey+, Ubuntu Linux, Android, iOS.</li>
+                                <li><strong>Web Browsers:</strong> Google Chrome 90+, Mozilla Firefox 88+, Safari 14+, Edge.</li>
+                                <li><strong>Runtime Engine:</strong> Python 3.8+ (Standalone Mode) OR PHP 8.0+ & Apache/Nginx.</li>
+                                <li><strong>Database Engine:</strong> MySQL 8.0+ OR embedded SQLite 3.30+.</li>
+                                <li><strong>Editor / Tooling:</strong> Visual Studio Code, Git, Chrome DevTools.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: System Design -->
+            <div class="slide" data-index="9" data-notes="Slide 9 covers System Design. We follow a 3-tier MVC architecture. The database contains 17 normalized tables in Third Normal Form. Notice the lifecycle transitions and data flow between requesters, helpers, and moderators.">
+                <div class="slide-tag">Slide 9 of 15 • System Design</div>
+                <h2 class="slide-title">System Design & Architectural Diagrams</h2>
+                <div class="slide-subtitle">Layered architecture, entity relationships (ER), and data flow diagrams (DFD)</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-title">3-Tier Layered Architecture</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Presentation Layer:</strong> HTML5 / CSS3 / Vanilla JS / Leaflet Map.</li>
+                                <li><strong>API Controller Layer:</strong> RESTful endpoints (/api/*.php) routing requests.</li>
+                                <li><strong>Business Logic Layer:</strong> Haversine math, matching engine, reputation calculator.</li>
+                                <li><strong>Data Layer:</strong> MySQL / SQLite relational storage with ACID guarantees.</li>
+                                <li><strong>Security Interceptor:</strong> Role-Based Access Control (RBAC) middleware.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-title">Database Design (17 Tables in 3NF)</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>users:</strong> Auth credentials, geo-coordinates, rating, reputation.</li>
+                                <li><strong>help_requests & help_offers:</strong> Categorized needs, skills, statuses.</li>
+                                <li><strong>conversations & messages:</strong> Encrypted threads with read status.</li>
+                                <li><strong>reviews:</strong> Strict UNIQUE(request_id, reviewer_id, reviewee_id).</li>
+                                <li><strong>reports & blocked_users:</strong> Safety and audit moderation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" style="margin-top: 1rem;">
+                    <div class="card-title">State Transition Lifecycle</div>
+                    <div class="card-desc" style="display:flex; justify-content:space-between; font-weight:600; color:#38bdf8; text-align:center;">
+                        <span>[Open Request]</span> ➔ <span>[In Discussion]</span> ➔ <span>[Accepted]</span> ➔ <span>[In Progress]</span> ➔ <span>[Completed]</span> ➔ <span>[Mutual Review]</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Modules Description -->
+            <div class="slide" data-index="10" data-notes="Slide 10 describes the seven major modules: Authentication, Help Requests & Offers, Smart Matching, Real-time Chat, Emergency Map, Reputation Badges, and Administrator Moderation.">
+                <div class="slide-tag">Slide 10 of 15 • Modules Description</div>
+                <h2 class="slide-title">Explanation of Project Modules</h2>
+                <div class="slide-subtitle">Modular breakdown of the functional subsystems powering the platform</div>
+
+                <div class="grid-3">
+                    <div class="feature-card">
+                        <div class="card-title">1. Auth & Profiles</div>
+                        <div class="card-desc">Bcrypt registration, session login, profile management, skill badges, bio, duplicate checks.</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-title">2. Requests & Offers</div>
+                        <div class="card-desc">Post needs across 4 urgency tiers; publish ongoing skill offers; filter by category & city.</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-title">3. Smart Match Engine</div>
+                        <div class="card-desc">Calculates 0-99% compatibility using Category (30%), Skills (20%), Geo (15%), Rating (10%).</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-title">4. Real-Time Chat</div>
+                        <div class="card-desc">WhatsApp-style split pane, Fetch API messaging, auto-scroll, read receipts (v/vv), user block.</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-title">5. Emergency & Map</div>
+                        <div class="card-desc">Dedicated SOS crisis portal; OpenStreetMap with color-coded pins (Green, Red, Yellow).</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-title">6. Admin & Reputation</div>
+                        <div class="card-desc">Live operational telemetry, user bans, dispute resolution, reputation points (+20/+10/+5).</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Implementation -->
+            <div class="slide" data-index="11" data-notes="Slide 11 highlights technical implementation details: the Haversine spherical distance formula, parameterized SQL queries preventing injection, and the responsive UI routes implemented across the platform.">
+                <div class="slide-tag">Slide 11 of 15 • Implementation</div>
+                <h2 class="slide-title">Technical Implementation & UI Highlights</h2>
+                <div class="slide-subtitle">Implementation specifics of key mathematical, database, and client-side mechanisms</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-title">Haversine Distance Implementation</div>
+                        <div class="card-desc" style="font-family: var(--font-mono); font-size: 0.82rem; background: rgba(0,0,0,0.3); padding: 0.8rem; border-radius: 6px; color:#38bdf8;">
+                            d = 2 * R * asin(sqrt(<br>
+                            &nbsp;&nbsp;sin²(Δφ/2) + cos(φ1)*cos(φ2)*sin²(Δλ/2)<br>
+                            )) [R = 6371 km]<br><br>
+                            • d &lt;= 5 km: +15 points (Neighborhood)<br>
+                            • d &lt;= 15 km: +10 points (Metro area)<br>
+                            • Same City: +5 points
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-title">SQL Injection Security Implementation</div>
+                        <div class="card-desc" style="font-family: var(--font-mono); font-size: 0.82rem; background: rgba(0,0,0,0.3); padding: 0.8rem; border-radius: 6px; color:#10b981;">
+                            // PDO Prepared Statements Parameterization<br>
+                            $stmt = $pdo->prepare("<br>
+                            &nbsp;&nbsp;SELECT * FROM users WHERE email = :email<br>
+                            ");<br>
+                            $stmt->execute([':email' => $clean_email]);<br>
+                            $user = $stmt->fetch();<br>
+                            // 100% immune to SQL injection payloads
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" style="margin-top: 1rem;">
+                    <div class="card-title">Core Responsive Application Routes</div>
+                    <div class="card-desc" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem;">
+                        <div>• <code>index.html</code> (Landing & Map)</div>
+                        <div>• <code>requests/view.html</code> (Find Help)</div>
+                        <div>• <code>messages/index.html</code> (Live Chat)</div>
+                        <div>• <code>dashboard/index.html</code> (User Dashboard)</div>
+                        <div>• <code>community/index.html</code> (Feed)</div>
+                        <div>• <code>admin/index.html</code> (Admin Console)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Output / Results -->
+            <div class="slide" data-index="12" data-notes="Slide 12 demonstrates the empirical test results. Every feature was rigorously tested: registration duplicate prevention, dynamic match calculations, live chat receipts, review duplication prevention, and admin bans. All tests passed.">
+                <div class="slide-tag">Slide 12 of 15 • Output / Results</div>
+                <h2 class="slide-title">Working Output & Verification Results</h2>
+                <div class="slide-subtitle">Empirical test matrix validating system functions, security barriers, and performance</div>
+
+                <table class="pres-table">
+                    <thead>
+                        <tr>
+                            <th>Test Module</th>
+                            <th>Action / Input Given</th>
+                            <th>Observed System Output</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Authentication</strong></td>
+                            <td>Register user with duplicate email</td>
+                            <td>HTTP 409 Conflict returned; registration safely halted</td>
+                            <td><span class="badge-pill success">PASS</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>SQL Injection</strong></td>
+                            <td>Injected `' OR '1'='1` in login & search inputs</td>
+                            <td>Input treated as literal string; zero vulnerabilities</td>
+                            <td><span class="badge-pill success">PASS</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Smart Match Engine</strong></td>
+                            <td>Request for computer repair in Mumbai</td>
+                            <td>Generated 96% Match for Rahul Sharma (0.7 km away)</td>
+                            <td><span class="badge-pill success">PASS</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Private Messaging</strong></td>
+                            <td>Send chat message via AJAX Fetch</td>
+                            <td>Appended with single tick (v); auto-scrolled</td>
+                            <td><span class="badge-pill success">PASS</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Read Receipts</strong></td>
+                            <td>Recipient opens conversation</td>
+                            <td>Sender view updates to double tick (vv)</td>
+                            <td><span class="badge-pill success">PASS</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Review Integrity</strong></td>
+                            <td>Submit 2nd review for same request</td>
+                            <td>Database rejected duplicate entry via composite key</td>
+                            <td><span class="badge-pill success">PASS</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Slide 13: Conclusion -->
+            <div class="slide" data-index="13" data-notes="Slide 13 provides the Project Conclusion. We successfully built a working, verified, community-first mutual aid platform that replaces fragmented social media with structured, accountable assistance.">
+                <div class="slide-tag">Slide 13 of 15 • Conclusion</div>
+                <h2 class="slide-title">Project Conclusion & Achievements</h2>
+                <div class="slide-subtitle">Summary of engineering milestones and societal impact achieved by HELPHUB</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-icon">🏆</div>
+                        <div class="card-title">Key Engineering Achievements</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li>Successfully engineered a production-grade full-stack mutual aid platform.</li>
+                                <li>Delivered a dual-backend architecture ensuring zero-dependency execution.</li>
+                                <li>Implemented mathematical smart matching replacing random manual searches.</li>
+                                <li>Guaranteed user privacy and trust through post-completion mutual reviews.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">💡</div>
+                        <div class="card-title">Key Technical Learnings</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li>Mastery of 3NF relational normalization and composite key constraints.</li>
+                                <li>Implementation of secure parameterized SQL queries against injection.</li>
+                                <li>Application of spherical trigonometry (Haversine formula) for geo-sorting.</li>
+                                <li>Designing accessible, responsive interfaces with dark/light theme switching.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" style="margin-top: 1rem; text-align: center;">
+                    <div class="card-title" style="color:#38bdf8;">“Connect. Help. Make a Difference.”</div>
+                    <div class="card-desc">
+                        HELPHUB proves that thoughtful software engineering can harness technology to strengthen community empathy, protect vulnerable citizens, and save lives in times of crisis.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Future Scope -->
+            <div class="slide" data-index="14" data-notes="Slide 14 outlines Future Scope: upgrading to bidirectional WebSockets, AI-powered natural language emergency triage, native cross-platform mobile apps, and institutional portals for NGOs and hospitals.">
+                <div class="slide-tag">Slide 14 of 15 • Future Scope</div>
+                <h2 class="slide-title">Future Scope & Enhancements</h2>
+                <div class="slide-subtitle">Strategic technical roadmap for scaling HELPHUB to city and national scale</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-title">1. Bidirectional WebSockets Engine</div>
+                        <div class="card-desc">
+                            Upgrade from AJAX polling to persistent WebSockets (Ratchet / Socket.io) for sub-10ms emergency messaging and live typing indicators.
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🧠</div>
+                        <div class="card-title">2. AI Emergency NLP Triage</div>
+                        <div class="card-desc">
+                            Integrate Natural Language Processing (NLP) to parse emergency requests, auto-detect medical distress, and dispatch alerts to nearby certified first-responders.
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">📱</div>
+                        <div class="card-title">3. Native Mobile Applications</div>
+                        <div class="card-desc">
+                            Build Flutter / React Native cross-platform mobile apps with background push notifications and live volunteer GPS navigation tracking.
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🏥</div>
+                        <div class="card-title">4. Institutional NGO & Hospital Portals</div>
+                        <div class="card-desc">
+                            Dedicated onboarding dashboards for registered charities, Red Cross chapters, and hospital blood banks to mobilize verified volunteers in bulk.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: References -->
+            <div class="slide" data-index="15" data-notes="Finally, Slide 15 lists our References: standard textbooks on modern web engineering, database architecture, MDN documentation, and research papers on peer-to-peer disaster response. Thank you, and we welcome your questions.">
+                <div class="slide-tag">Slide 15 of 15 • References</div>
+                <h2 class="slide-title">References & Bibliography</h2>
+                <div class="slide-subtitle">Academic textbooks, research publications, and official technical documentation standards</div>
+
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-icon">📚</div>
+                        <div class="card-title">Books & Academic Literature</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>Lockhart, J.:</strong> <em>Modern PHP: New Features and Good Practices</em>, O'Reilly Media.</li>
+                                <li><strong>Kleppmann, M.:</strong> <em>Designing Data-Intensive Applications</em>, O'Reilly Media.</li>
+                                <li><strong>Elmasri, R. & Navathe, S.:</strong> <em>Fundamentals of Database Systems (7th Edition)</em>, Pearson.</li>
+                                <li><strong>Robbins, J.:</strong> <em>Learning Web Design: A Beginner's Guide to HTML, CSS, JS</em>, O'Reilly.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="card-icon">🌐</div>
+                        <div class="card-title">Web Standards & Documentation</div>
+                        <div class="card-desc">
+                            <ul>
+                                <li><strong>MDN Web Docs:</strong> Fetch API, CSS Custom Properties, and ES6+ JavaScript Specifications.</li>
+                                <li><strong>PHP Manual:</strong> PHP Data Objects (PDO) and Password Hashing API (password_hash/verify).</li>
+                                <li><strong>Leaflet.js:</strong> Mobile-Friendly Interactive OpenStreetMap Documentation (leafletjs.com).</li>
+                                <li><strong>SQLite:</strong> SQLite In-Process Relational Database Architecture & Full-Text Search.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" style="margin-top: 1rem; text-align:center;">
+                    <div class="card-title" style="color:#10b981; font-size:1.2rem;">Thank You! Questions & Answers (Q&A)</div>
+                    <div class="card-desc">
+                        Project Repository: <code>/helphub</code> • Presentation Deck: <code>presentation.html</code> • PDF: <code>helphub_presentation.pdf</code>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Deck Progress Bar -->
+            <div class="progress-bar" id="progressBar" style="width: 6.66%;"></div>
+
+            <!-- Slide Deck Bottom Footer -->
+            <footer class="deck-footer">
+                <div>
+                    HELPHUB • Major Project Presentation
+                </div>
+                <div>
+                    Slide <strong id="currentSlideNum" style="color:#38bdf8;">1</strong> of <strong id="totalSlidesNum">15</strong>
+                </div>
+                <div>
+                    Use <kbd style="background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:4px; font-family:var(--font-mono);">←</kbd> <kbd style="background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:4px; font-family:var(--font-mono);">→</kbd> to Navigate
+                </div>
+            </footer>
+
+        </div>
+    </main>
+
+    <!-- Speaker Notes Drawer (Press S to toggle) -->
+    <aside class="notes-drawer" id="notesDrawer">
+        <div class="notes-header">
+            <span>🎙️ Speaker Talking Points (Slide <span id="notesSlideIndex">1</span>)</span>
+            <button class="btn-ctrl" onclick="toggleNotesDrawer()" style="padding:2px 8px; font-size:0.75rem;">✕ Close</button>
+        </div>
+        <div class="notes-content" id="notesContent">
+            Loading speaker notes...
+        </div>
+    </aside>
+
+    <!-- Slide Directory Modal (Press G to toggle) -->
+    <div class="modal-overlay" id="slideListModal" onclick="closeModalOnOverlay(event)">
+        <div class="modal-box">
+            <div class="modal-header">
+                <span>📑 Presentation Slide Navigator (15 Slides Structure)</span>
+                <button class="btn-ctrl" onclick="toggleSlideListModal()" style="padding:4px 10px;">✕</button>
+            </div>
+            <div class="slide-list-grid" id="slideListGrid">
+                <!-- Populated dynamically via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Navigation Scripts -->
+    <script>
+        let currentSlide = 1;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function updateSlide(newIndex) {
+            if (newIndex < 1) newIndex = 1;
+            if (newIndex > totalSlides) newIndex = totalSlides;
+
+            slides.forEach((slide, idx) => {
+                slide.classList.remove('active', 'prev');
+                const slideNum = idx + 1;
+                if (slideNum === newIndex) {
+                    slide.classList.add('active');
+                } else if (slideNum < newIndex) {
+                    slide.classList.add('prev');
+                }
+            });
+
+            currentSlide = newIndex;
+
+            // Update footer info
+            document.getElementById('currentSlideNum').innerText = currentSlide;
+            document.getElementById('totalSlidesNum').innerText = totalSlides;
+
+            // Update Progress Bar
+            const percent = (currentSlide / totalSlides) * 100;
+            document.getElementById('progressBar').style.width = percent + '%';
+
+            // Update Speaker Notes
+            const activeSlide = slides[currentSlide - 1];
+            const notes = activeSlide.getAttribute('data-notes') || 'No notes for this slide.';
+            document.getElementById('notesSlideIndex').innerText = currentSlide;
+            document.getElementById('notesContent').innerText = notes;
+
+            // Update Modal highlights if modal is open
+            renderSlideListItems();
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides) {
+                updateSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 1) {
+                updateSlide(currentSlide - 1);
+            }
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    alert(`Error attempting to enable fullscreen: ${err.message}`);
+                });
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+
+        function toggleNotesDrawer() {
+            const drawer = document.getElementById('notesDrawer');
+            drawer.classList.toggle('open');
+            document.getElementById('btnNotes').classList.toggle('active');
+        }
+
+        function toggleTheme() {
+            const current = document.body.getAttribute('data-theme');
+            const target = current === 'light' ? 'dark' : 'light';
+            document.body.setAttribute('data-theme', target);
+        }
+
+        function toggleSlideListModal() {
+            const modal = document.getElementById('slideListModal');
+            modal.classList.toggle('open');
+            if (modal.classList.contains('open')) {
+                renderSlideListItems();
+            }
+        }
+
+        function closeModalOnOverlay(e) {
+            if (e.target.id === 'slideListModal') {
+                toggleSlideListModal();
+            }
+        }
+
+        function renderSlideListItems() {
+            const grid = document.getElementById('slideListGrid');
+            grid.innerHTML = '';
+            slides.forEach((slide, idx) => {
+                const num = idx + 1;
+                const titleElem = slide.querySelector('.slide-title') || slide.querySelector('h1');
+                const title = titleElem ? titleElem.innerText : `Slide ${num}`;
+
+                const item = document.createElement('div');
+                item.className = `slide-card-item ${num === currentSlide ? 'active' : ''}`;
+                item.innerHTML = `
+                    <div class="slide-card-num">SLIDE ${num} of ${totalSlides}</div>
+                    <div class="slide-card-title">${title}</div>
+                `;
+                item.onclick = () => {
+                    updateSlide(num);
+                    toggleSlideListModal();
+                };
+                grid.appendChild(item);
+            });
+        }
+
+        // Keyboard Navigation Support
+        document.addEventListener('keydown', (e) => {
+            if (e.target.isContentEditable) return;
+
+            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+                e.preventDefault();
+                prevSlide();
+            } else if (e.key.toLowerCase() === 'f') {
+                e.preventDefault();
+                toggleFullscreen();
+            } else if (e.key.toLowerCase() === 's') {
+                e.preventDefault();
+                toggleNotesDrawer();
+            } else if (e.key.toLowerCase() === 'g') {
+                e.preventDefault();
+                toggleSlideListModal();
+            } else if (e.key === 'Escape') {
+                const modal = document.getElementById('slideListModal');
+                if (modal.classList.contains('open')) {
+                    modal.classList.remove('open');
+                }
+                const notes = document.getElementById('notesDrawer');
+                if (notes.classList.contains('open')) {
+                    notes.classList.remove('open');
+                    document.getElementById('btnNotes').classList.remove('active');
+                }
+            }
+        });
+
+        // Initialize First Slide
+        updateSlide(1);
+    </script>
+</body>
+</html>

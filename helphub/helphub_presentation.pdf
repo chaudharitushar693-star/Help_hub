@@ -1,0 +1,1153 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R] /Count 15 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 7 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 7115 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 1 of 15) Tj ET Q
+q 0.080 0.130 0.240 rg 0.180 0.280 0.450 RG 1.5 w 48.00 320.00 746.00 200.00 re B Q
+q 0.140 0.450 0.950 rg 48.00 516.00 746.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 12 Tf 74.00 480.00 Td (FINAL YEAR MAJOR PROJECT PRESENTATION) Tj ET Q
+q 1.000 1.000 1.000 rg BT /F2 44 Tf 74.00 420.00 Td (HELPHUB) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 18 Tf 74.00 385.00 Td ("Connect. Help. Make a Difference.") Tj ET Q
+q 0.750 0.820 0.920 rg BT /F1 11 Tf 74.00 350.00 Td (Full-Stack Social-Help & Community Mutual Aid Ecosystem with Smart Matching, Real-Time Chat & Trust Scoring) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 90.00 m 216.00 90.00 l 219.87 90.00 223.00 93.13 223.00 97.00 c 223.00 283.00 l 223.00 286.87 219.87 290.00 216.00 290.00 c 55.00 290.00 l 51.13 290.00 48.00 286.87 48.00 283.00 c 48.00 97.00 l 48.00 93.13 51.13 90.00 55.00 90.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 287.00 161.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 266.00 Td ([P] Student Details) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 246.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 246.00 Td (Candidate: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 133.20 246.00 Td (Tushar Chaudhari) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 228.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 228.00 Td (Roll No: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 228.00 Td (CS-2024-FINAL) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 210.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 210.00 Td (Semester: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 128.00 210.00 Td (VIII \(Final Year\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 192.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 192.00 Td (Branch: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 117.60 192.00 Td (Computer Science) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 174.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 174.00 Td (Specialization: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 159.20 174.00 Td (Full-Stack Web) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 245.00 90.00 m 406.00 90.00 l 409.87 90.00 413.00 93.13 413.00 97.00 c 413.00 283.00 l 413.00 286.87 409.87 290.00 406.00 290.00 c 245.00 290.00 l 241.13 290.00 238.00 286.87 238.00 283.00 c 238.00 97.00 l 238.00 93.13 241.13 90.00 245.00 90.00 c B Q
+q 0.140 0.450 0.950 rg 245.00 287.00 161.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 254.00 266.00 Td ([G] Academic Guide) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 254.00 246.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 266.00 246.00 Td (Project Guide: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 344.00 246.00 Td (Prof. Mentor Name) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 254.00 228.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 266.00 228.00 Td (Designation: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 333.60 228.00 Td (Associate Professor) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 254.00 210.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 266.00 210.00 Td (Department: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 328.40 210.00 Td (Comp. Sci. & Engg.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 254.00 192.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 266.00 192.00 Td (Academic Year: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 344.00 192.00 Td (2024 - 2025) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 254.00 174.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 266.00 174.00 Td (Review Type: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 333.60 174.00 Td (Final Viva Voce) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 435.00 90.00 m 596.00 90.00 l 599.87 90.00 603.00 93.13 603.00 97.00 c 603.00 283.00 l 603.00 286.87 599.87 290.00 596.00 290.00 c 435.00 290.00 l 431.13 290.00 428.00 286.87 428.00 283.00 c 428.00 97.00 l 428.00 93.13 431.13 90.00 435.00 90.00 c B Q
+q 0.140 0.450 0.950 rg 435.00 287.00 161.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 444.00 266.00 Td ([U] Institution) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 444.00 246.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 456.00 246.00 Td (College: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 502.80 246.00 Td (College of Engineering) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 444.00 228.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 456.00 228.00 Td (Affiliation: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 523.60 228.00 Td (State Tech University) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 444.00 210.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 456.00 210.00 Td (Location: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 508.00 210.00 Td (Maharashtra, India) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 444.00 192.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 456.00 192.00 Td (Project Code: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 528.80 192.00 Td (CAP-CS-042) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 444.00 174.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 456.00 174.00 Td (Status: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 497.60 174.00 Td (Fully Functional) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 625.00 90.00 m 786.00 90.00 l 789.87 90.00 793.00 93.13 793.00 97.00 c 793.00 283.00 l 793.00 286.87 789.87 290.00 786.00 290.00 c 625.00 290.00 l 621.13 290.00 618.00 286.87 618.00 283.00 c 618.00 97.00 l 618.00 93.13 621.13 90.00 625.00 90.00 c B Q
+q 0.140 0.450 0.950 rg 625.00 287.00 161.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 634.00 266.00 Td ([T] Tech Stack) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 634.00 246.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 646.00 246.00 Td (Architecture: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 718.80 246.00 Td (Full-Stack MVC) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 634.00 228.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 646.00 228.00 Td (Backend: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 692.80 228.00 Td (PHP 8+ / Python 3) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 634.00 210.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 646.00 210.00 Td (Database: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 698.00 210.00 Td (MySQL / SQLite \(3NF\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 634.00 192.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 646.00 192.00 Td (Frontend: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 698.00 192.00 Td (ES6+ / Leaflet.js) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 634.00 174.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 646.00 174.00 Td (Execution: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 703.20 174.00 Td (Dual Autonomous) Tj ET Q
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 5934 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 2 ? INTRODUCTION) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Introduction & Project Overview) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 2 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 300.00 m 401.00 300.00 l 404.87 300.00 408.00 303.13 408.00 307.00 c 408.00 473.00 l 408.00 476.87 404.87 480.00 401.00 480.00 c 55.00 480.00 l 51.13 480.00 48.00 476.87 48.00 473.00 c 48.00 307.00 l 48.00 303.13 51.13 300.00 55.00 300.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 477.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 456.00 Td ([1] What is HELPHUB?) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 436.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 436.00 Td (A civic tech platform connecting citizens with nearby) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (helpers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 418.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 418.00 Td (Facilitates verified assistance during local crises and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (daily needs.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 400.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 400.00 Td (Bridges community gaps through structured, real-time mutual) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (aid.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 382.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 382.00 Td (Combines geolocation mapping, private chat, and reputation) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 369.00 Td (scoring.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 364.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 364.00 Td (Eliminates dependency on commercial apps that charge heavy) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 351.00 Td (commissions.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 300.00 m 787.00 300.00 l 790.87 300.00 794.00 303.13 794.00 307.00 c 794.00 473.00 l 794.00 476.87 790.87 480.00 787.00 480.00 c 441.00 480.00 l 437.13 480.00 434.00 476.87 434.00 473.00 c 434.00 307.00 l 434.00 303.13 437.13 300.00 441.00 300.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 477.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 456.00 Td ([2] Core Motivation & Vision) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 436.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 436.00 Td (Neighborhood Solidarity: Empowering citizens to support) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 423.00 Td (neighbors.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 418.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 418.00 Td (Pro-Bono Community Culture: Encouraging student &) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 405.00 Td (professional volunteers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 400.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 400.00 Td (Digital Verification: Replacing chaotic WhatsApp/Telegram) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 387.00 Td (channels.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 382.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 382.00 Td (Accountability by Design: Closed-loop status and rating) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 369.00 Td (verification.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 364.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 364.00 Td (Universal Accessibility: Mobile-responsive and lightweight) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 351.00 Td (dual backend.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 70.00 m 787.00 70.00 l 790.87 70.00 794.00 73.13 794.00 77.00 c 794.00 268.00 l 794.00 271.87 790.87 275.00 787.00 275.00 c 55.00 275.00 l 51.13 275.00 48.00 271.87 48.00 268.00 c 48.00 77.00 l 48.00 73.13 51.13 70.00 55.00 70.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 272.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 251.00 Td ([3] The 5 Foundational Pillars of HelpHub) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 231.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 231.00 Td (1. Instant Request Triage: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 216.40 231.00 Td (4 urgency tiers \(Normal, Important, Urgent, Emergency\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 213.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 213.00 Td (2. Smart Compatibility Matching: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 247.60 213.00 Td (Calculates 0-99% score via skills and Haversine distance.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 195.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 195.00 Td (3. Private Communication: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 211.20 195.00 Td (Zero-refresh AJAX chat protecting private phone numbers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 177.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 177.00 Td (4. Trust & Gamification: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 206.00 177.00 Td (Reputation points \(+20/+10/+5\) and progressive badges.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 159.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 159.00 Td (5. Interactive Crisis Map: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 216.40 159.00 Td (Leaflet OpenStreetMap visual markers \(Green, Red, Yellow\).) Tj ET Q
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 6393 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 3 ? PROBLEM STATEMENT) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Problem Statement & Challenges) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 3 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 290.00 m 401.00 290.00 l 404.87 290.00 408.00 293.13 408.00 297.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 297.00 l 48.00 293.13 51.13 290.00 55.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([A] 1. Fragmented Communication in Crises) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 441.00 Td (SOS messages get buried in social media feeds and group) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 428.00 Td (chats.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (No geographic indexing to identify who is actually 500) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 410.00 Td (meters away.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (High latency in finding urgent medication, blood donors, or) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 392.00 Td (first aid.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (Critical emergencies are mixed with jokes and chit-chat in) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 374.00 Td (groups.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 290.00 m 787.00 290.00 l 790.87 290.00 794.00 293.13 794.00 297.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 297.00 l 434.00 293.13 437.13 290.00 441.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([B] 2. Rampant Spam & Lack of Trust) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 441.00 Td (Unverified identities lead to scams, financial fraud, and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 428.00 Td (hoaxes.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 423.00 Td (Requesters have zero safety verification before welcoming) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 410.00 Td (helpers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 405.00 Td (Sharing personal mobile numbers leads to harassment and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 392.00 Td (spam.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 387.00 Td (No penalty for bad actors or fraudulent claims.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 401.00 75.00 l 404.87 75.00 408.00 78.13 408.00 82.00 c 408.00 263.00 l 408.00 266.87 404.87 270.00 401.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([C] 3. Underutilized Local Skills) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 226.00 Td (Engineers, tutors, electricians, and nurses want to) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 213.00 Td (volunteer locally.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 208.00 Td (Lack of a dedicated discovery directory to advertise free) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 195.00 Td (skills.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 190.00 Td (Community goodwill remains passive due to lack of a) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 177.00 Td (platform.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 172.00 Td (Students lack avenues to build verified civic volunteering) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 159.00 Td (records.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 441.00 270.00 l 437.13 270.00 434.00 266.87 434.00 263.00 c 434.00 82.00 l 434.00 78.13 437.13 75.00 441.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 267.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 246.00 Td ([D] 4. Zero Request Lifecycle Tracking) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 226.00 Td (Posts on social media are never updated when resolved.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 208.00 Td (Helpers waste time contacting people whose problem is) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 195.00 Td (already solved.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 190.00 Td (No structured mutual feedback loop to reward honest) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 177.00 Td (volunteers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 172.00 Td (Zero data analytics for community leaders on recurring local) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 159.00 Td (needs.) Tj ET Q
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 5895 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 4 ? OBJECTIVES) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Project Objectives & Goals) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 4 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 290.00 m 401.00 290.00 l 404.87 290.00 408.00 293.13 408.00 297.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 297.00 l 48.00 293.13 51.13 290.00 55.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([F] Primary Functional Objectives) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 441.00 Td (Develop an intuitive web platform for requesting and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 428.00 Td (offering mutual aid.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (Implement a dynamic Smart Matching Engine evaluating skills) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 410.00 Td (and proximity.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (Provide private, zero-refresh real-time messaging with read) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 392.00 Td (receipts.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (Enforce strict request lifecycle states: Open, In Progress,) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 374.00 Td (Completed.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 369.00 Td (Deliver an emergency triage portal with high-visibility SOS) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 356.00 Td (broadcast.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 290.00 m 787.00 290.00 l 790.87 290.00 794.00 293.13 794.00 297.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 297.00 l 434.00 293.13 437.13 290.00 441.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([G] Trust & Governance Objectives) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 441.00 Td (Eliminate duplicate review fraud via database composite) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 428.00 Td (uniqueness.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 423.00 Td (Gamify volunteer participation via reputation points and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 410.00 Td (badges.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 405.00 Td (Provide 1-click user blocking and content dispute reporting.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 387.00 Td (Equip administrators with a telemetry dashboard for) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 374.00 Td (moderation.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 369.00 Td (Implement Role-Based Access Control \(RBAC\) protecting) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 356.00 Td (sensitive operations.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([T] Technical & Architectural Objectives) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 226.00 Td (Portability: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 143.60 226.00 Td (Deliver dual-backend compatibility \(PHP 8/MySQL & Python 3/SQLite\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 208.00 Td (Security: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 128.00 208.00 Td (Ensure 100% immunity against SQLi using parameterized prepared statements.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 190.00 Td (Performance: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 143.60 190.00 Td (Sub-second response times using asynchronous Fetch API and JSON payloads.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 172.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 172.00 Td (Mobile First: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 148.80 172.00 Td (Responsive design with mobile bottom navigation and touch-friendly controls.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 154.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 154.00 Td (No External Lock-in: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 185.20 154.00 Td (Use open-source standards \(Leaflet, OpenStreetMap, Bcrypt, SQLite\).) Tj ET Q
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 5116 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 5 ? EXISTING SYSTEM) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Existing Systems & Limitations) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 5 of 15) Tj ET Q
+q 0.120 0.190 0.320 rg 0.200 0.280 0.420 RG 1 w 48.00 446.00 746.00 24.00 re B Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 56.00 453.00 Td (Feature / Parameter) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 196.00 453.00 Td (Social Media Groups) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 386.00 453.00 Td (Commercial Apps \(TaskRabbit\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 596.00 453.00 Td (HELPHUB \(Proposed\)) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 422.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 429.00 Td (Primary Goal) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 429.00 Td (Casual Social Networking) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 429.00 Td (Commercial Profit / Gigs) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 429.00 Td (Civic Mutual Aid & Safety) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 398.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 405.00 Td (Cost to Citizen) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 405.00 Td (Free \(Ad-Supported\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 405.00 Td (Heavy Commission \(15-30%\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 405.00 Td (100% Free & Open) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 374.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 381.00 Td (Geo-Spatial Indexing) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 381.00 Td (None \(Chronological Stream\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 381.00 Td (Coarse City-Level) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 381.00 Td (Exact Haversine Proximity \(km\)) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 350.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 357.00 Td (Privacy Protection) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 357.00 Td (Poor \(Public Phone Numbers\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 357.00 Td (Moderate \(Masked Calls\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 357.00 Td (Built-in Encrypted Chat) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 326.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 333.00 Td (Smart Match Engine) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 333.00 Td (None) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 333.00 Td (Sponsored Algorithms) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 333.00 Td (Transparent Dynamic 0-99% Score) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 302.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 309.00 Td (Urgency Categorization) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 309.00 Td (None) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 309.00 Td (Standard SLA Only) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 309.00 Td (4 Urgency Tiers + SOS Map Triage) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 278.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 285.00 Td (Trust Verification) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 285.00 Td (Zero Verification) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 285.00 Td (ID Check for Paid Workers) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 285.00 Td (Verified Mutual Rating + Badges) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 254.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 261.00 Td (Data Normalization) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 261.00 Td (Unstructured Plain Text) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 261.00 Td (Proprietary Siloed Schema) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 596.00 261.00 Td (17 Tables in 3rd Normal Form) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 60.00 m 787.00 60.00 l 790.87 60.00 794.00 63.13 794.00 67.00 c 794.00 118.00 l 794.00 121.87 790.87 125.00 787.00 125.00 c 55.00 125.00 l 51.13 125.00 48.00 121.87 48.00 118.00 c 48.00 67.00 l 48.00 63.13 51.13 60.00 55.00 60.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 122.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 101.00 Td (Summary of Existing Bottlenecks) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 81.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 81.00 Td (Citizens either risk their privacy on social media or are priced out by commercial gig apps. HelpHub solves both.) Tj ET Q
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 5987 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 6 ? PROPOSED SYSTEM) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Proposed System & Key Advantages) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 6 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 290.00 m 401.00 290.00 l 404.87 290.00 408.00 293.13 408.00 297.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 297.00 l 48.00 293.13 51.13 290.00 55.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([A] Key Structural Advantages) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 441.00 Td (Closed-Loop Lifecycle: Requests progress through audited) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 428.00 Td (status stages.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (Decentralized Mutual Aid: Any citizen can be a requester or) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 410.00 Td (helper.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (Mutual Review Gate: Reviews unlocked only upon verified) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 392.00 Td (completion.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (Privacy Safeguard: No personal phone numbers or exact) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 374.00 Td (addresses leaked.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 369.00 Td (Multi-Tier Urgency: Emergency requests visibly prioritized) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 356.00 Td (in red.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 290.00 m 787.00 290.00 l 790.87 290.00 794.00 293.13 794.00 297.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 297.00 l 434.00 293.13 437.13 290.00 441.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([B] Algorithmic & Social Innovations) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 441.00 Td (Smart Matching Score: Evaluates category, skills, distance,) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 428.00 Td (and ratings.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 423.00 Td (Gamified Trust System: Milestone badges \(New Helper to Top) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 410.00 Td (Volunteer\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 405.00 Td (Interactive Aid Map: Real-time visual pinpoints of helpers) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 392.00 Td (and requests.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 387.00 Td (Social Community Feed: Stories, tips, and neighborhood) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 374.00 Td (announcements.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 369.00 Td (Admin Control Center: Real-time telemetry, user bans, and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 356.00 Td (report resolution.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([W] End-to-End Assistance Flow) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 226.00 Td (Step 1 \(Publish\): ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 169.60 226.00 Td (User posts a categorized Help Request with urgency and required date.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 208.00 Td (Step 2 \(Match\): ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 159.20 208.00 Td (Smart Match Engine calculates compatibility scores for neighborhood volunteers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 190.00 Td (Step 3 \(Chat\): ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 154.00 190.00 Td (Requester initiates private real-time chat to coordinate logistics.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 172.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 172.00 Td (Step 4 \(Resolve\): ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 169.60 172.00 Td (Task is executed; owner marks request as 'Completed'.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 154.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 154.00 Td (Step 5 \(Review\): ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 154.00 Td (Both parties submit 1-5 star reviews; reputation points are automatically awarded.) Tj ET Q
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 7777 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 7 ? TECHNOLOGY USED) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Technology Stack & Tools) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 7 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 280.00 m 276.00 280.00 l 279.87 280.00 283.00 283.13 283.00 287.00 c 283.00 478.00 l 283.00 481.87 279.87 485.00 276.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 287.00 l 48.00 283.13 51.13 280.00 55.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([UI] Frontend Presentation) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 441.00 Td (HTML5: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 112.40 441.00 Td (Semantic web structure) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 423.00 Td (CSS3: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 107.20 423.00 Td (Custom variables design) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 405.00 Td (Themes: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 117.60 405.00 Td (Light & Dark engine) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 387.00 Td (JavaScript: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 138.40 387.00 Td (ES6+ Vanilla \(No bloat\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 369.00 Td (AJAX: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 107.20 369.00 Td (Fetch API asynchronous) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 351.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 351.00 Td (Mapping: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 351.00 Td (Leaflet.js + OSM) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 310.00 280.00 m 531.00 280.00 l 534.87 280.00 538.00 283.13 538.00 287.00 c 538.00 478.00 l 538.00 481.87 534.87 485.00 531.00 485.00 c 310.00 485.00 l 306.13 485.00 303.00 481.87 303.00 478.00 c 303.00 287.00 l 303.00 283.13 306.13 280.00 310.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 310.00 482.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 319.00 461.00 Td ([SRV] Backend Architecture) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 331.00 441.00 Td (PHP 8.1+: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 383.00 441.00 Td (PDO prepared statements) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 331.00 423.00 Td (Sessions: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 383.00 423.00 Td (Native secure auth state) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 331.00 405.00 Td (Python 3: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 383.00 405.00 Td (Zero-dependency engine) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 331.00 387.00 Td (HTTP Core: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 388.20 387.00 Td (Multi-port auto-fallback) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 331.00 369.00 Td (Bcrypt: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 372.60 369.00 Td (password_hash & verify) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 351.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 331.00 351.00 Td (REST API: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 383.00 351.00 Td (JSON status endpoints) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 566.00 280.00 m 787.00 280.00 l 790.87 280.00 794.00 283.13 794.00 287.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 566.00 485.00 l 562.13 485.00 559.00 481.87 559.00 478.00 c 559.00 287.00 l 559.00 283.13 562.13 280.00 566.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 566.00 482.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 575.00 461.00 Td ([DB] Data & Storage) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 587.00 441.00 Td (MySQL 8.0: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 644.20 441.00 Td (Production relational DB) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 587.00 423.00 Td (SQLite 3: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 639.00 423.00 Td (Embedded zero-config DB) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 587.00 405.00 Td (Normalization: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 665.00 405.00 Td (Strict 3NF compliance) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 587.00 387.00 Td (Integrity: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 644.20 387.00 Td (Foreign key cascade rules) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 587.00 369.00 Td (Constraints: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 654.60 369.00 Td (Composite unique keys) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 351.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 587.00 351.00 Td (ACID: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 618.20 351.00 Td (Transactional reliability) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 253.00 l 794.00 256.87 790.87 260.00 787.00 260.00 c 55.00 260.00 l 51.13 260.00 48.00 256.87 48.00 253.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 257.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 236.00 Td ([DEV] Development & Testing Toolchain) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 216.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 216.00 Td (IDE: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 102.00 216.00 Td (Visual Studio Code with Git source control integration.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 198.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 198.00 Td (Runtime: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 198.00 Td (Python 3.9+ / PHP 8.1+ built-in web servers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 180.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 180.00 Td (Debugging: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 133.20 180.00 Td (Chrome DevTools \(Network, Application, Console, Elements, Storage\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 162.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 162.00 Td (Security: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 128.00 162.00 Td (Prepared statement parameterization, HTML entity escaping, session sanitization.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 144.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 144.00 Td (Version Control: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 144.00 Td (Git repository with feature branches and atomic commits.) Tj ET Q
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 5752 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 8 ? SYSTEM REQUIREMENTS) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (System Requirements) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 8 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 280.00 m 401.00 280.00 l 404.87 280.00 408.00 283.13 408.00 287.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 287.00 l 48.00 283.13 51.13 280.00 55.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([HW] Hardware Requirements \(Client & Server\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 441.00 Td (Processor: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 133.20 441.00 Td (Dual Core 2.0 GHz or higher \(Intel, AMD, Apple M-series\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 423.00 Td (RAM: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 102.00 423.00 Td (4 GB minimum \(8 GB recommended for concurrent connections\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 405.00 Td (Storage: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 405.00 Td (200 MB free space for code, media, and database files.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 387.00 Td (Display: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 387.00 Td (1024 x 768 minimum resolution \(Responsive for Mobile/Tablet\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 369.00 Td (Network: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 369.00 Td (Broadband Internet connection for Leaflet map tile rendering.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 280.00 m 787.00 280.00 l 790.87 280.00 794.00 283.13 794.00 287.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 287.00 l 434.00 283.13 437.13 280.00 441.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([SW] Software Requirements \(Operating System\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 441.00 Td (Client OS: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 519.20 441.00 Td (Windows 10/11, macOS Monterey+, Ubuntu 20.04+, Android, iOS.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 423.00 Td (Server OS: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 519.20 423.00 Td (macOS, Linux \(Ubuntu/Debian/CentOS\), or Windows Server.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 405.00 Td (Web Browser: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 529.60 405.00 Td (Google Chrome 90+, Mozilla Firefox 88+, Safari 14+, Edge.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 387.00 Td (Terminal: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 514.00 387.00 Td (Standard bash, zsh, or PowerShell terminal.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 369.00 Td (Permissions: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 529.60 369.00 Td (Standard user privileges \(No root/administrator required\).) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 253.00 l 794.00 256.87 790.87 260.00 787.00 260.00 c 55.00 260.00 l 51.13 260.00 48.00 256.87 48.00 253.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 257.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 236.00 Td ([ENV] Runtime & Dependency Specifications) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 216.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 216.00 Td (Standalone Mode: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 216.00 Td (Python 3.8+ \(Included natively on macOS/Linux; Zero third-party pip packages required\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 198.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 198.00 Td (Enterprise PHP Mode: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 185.20 198.00 Td (PHP 8.0 or higher with pdo_mysql, session, json, and mbstring extensions enabled.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 180.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 180.00 Td (Database Server: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 180.00 Td (MySQL 8.0+ or MariaDB 10.4+ \(Default port 3306\) OR SQLite 3.30+.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 162.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 162.00 Td (Port Allocation: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 162.00 Td (Port 8080 \(With automated fallback to 8081, 8082, 8000, 3000 if occupied\).) Tj ET Q
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 5842 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 9 ? SYSTEM DESIGN) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (System Design & Architecture) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 9 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 280.00 m 401.00 280.00 l 404.87 280.00 408.00 283.13 408.00 287.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 287.00 l 48.00 283.13 51.13 280.00 55.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([ARC] 3-Tier MVC Architecture) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 441.00 Td (Presentation Layer: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 180.00 441.00 Td (HTML5, CSS3, Vanilla JS, Theme Switcher, Leaflet Map.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 423.00 Td (API Controller Layer: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 190.40 423.00 Td (RESTful JSON endpoints \(/api/*.php\) routing client actions.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 405.00 Td (Business Logic Layer: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 190.40 405.00 Td (Haversine geo-engine, Smart Matcher, Reputation calculator.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 387.00 Td (Data Persistence Layer: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 200.80 387.00 Td (MySQL / SQLite relational storage with ACID guarantees.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 369.00 Td (Security Interceptor: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 190.40 369.00 Td (Authentication middleware, session token validation.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 280.00 m 787.00 280.00 l 790.87 280.00 794.00 283.13 794.00 287.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 287.00 l 434.00 283.13 437.13 280.00 441.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([ER] Entity-Relationship \(ER\) Schema \(17 Tables\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 441.00 Td (users: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 498.40 441.00 Td (Auth credentials, role, coordinates, rating, reputation points.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 423.00 Td (help_requests: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 540.00 423.00 Td (Title, urgency, category_id, required_date, lifecycle status.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 405.00 Td (help_offers: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 529.60 405.00 Td (Volunteer skills, availability, service area.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 387.00 Td (conversations & messages: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 597.20 387.00 Td (Dual participant threads, read receipts \(v/vv\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 369.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 369.00 Td (reviews: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 508.80 369.00 Td (Composite unique key \(request_id, reviewer_id, reviewee_id\).) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 253.00 l 794.00 256.87 790.87 260.00 787.00 260.00 c 55.00 260.00 l 51.13 260.00 48.00 256.87 48.00 253.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 257.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 236.00 Td ([DFD] Data Flow & Request Lifecycle Workflow) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 216.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 216.00 Td (DFD Level 0: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 143.60 216.00 Td (User inputs credentials & help data -> System authenticates & matches -> Database stores.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 198.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 198.00 Td (DFD Level 1: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 143.60 198.00 Td (Request created -> Match Engine queries nearby helpers -> Chat coordinates -> Review updates stats.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 180.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 180.00 Td (State Diagram: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 154.00 180.00 Td ([Open] -> [In Discussion] -> [Accepted] -> [In Progress] -> [Completed] -> [Reviewed].) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 162.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 162.00 Td (Security Guard: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 159.20 162.00 Td (All queries execute via PDO/SQLite parameter binding; zero dynamic SQL interpolation.) Tj ET Q
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 25 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 8310 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 10 ? MODULES DESCRIPTION) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Project Modules Description) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 10 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 285.00 m 276.00 285.00 l 279.87 285.00 283.00 288.13 283.00 292.00 c 283.00 478.00 l 283.00 481.87 279.87 485.00 276.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 292.00 l 48.00 288.13 51.13 285.00 55.00 285.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([M1] 1. Auth & Profiles) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 441.00 Td (User registration with validation.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (Secure Bcrypt password hashing.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (Duplicate email/username check.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (Role separation \(User vs Admin\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 369.00 Td (Public profiles with skill badges.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 310.00 285.00 m 531.00 285.00 l 534.87 285.00 538.00 288.13 538.00 292.00 c 538.00 478.00 l 538.00 481.87 534.87 485.00 531.00 485.00 c 310.00 485.00 l 306.13 485.00 303.00 481.87 303.00 478.00 c 303.00 292.00 l 303.00 288.13 306.13 285.00 310.00 285.00 c B Q
+q 0.140 0.450 0.950 rg 310.00 482.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 319.00 461.00 Td ([M2] 2. Requests & Offers) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 441.00 Td (Create requests with 4 urgency) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 428.00 Td (tiers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 423.00 Td (Filter by category, urgency & city.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 405.00 Td (Volunteer skill offer showcase.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 387.00 Td (Owner edit & cancellation tools.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 369.00 Td (Audit trail for lifecycle changes.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 566.00 285.00 m 787.00 285.00 l 790.87 285.00 794.00 288.13 794.00 292.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 566.00 485.00 l 562.13 485.00 559.00 481.87 559.00 478.00 c 559.00 292.00 l 559.00 288.13 562.13 285.00 566.00 285.00 c B Q
+q 0.140 0.450 0.950 rg 566.00 482.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 575.00 461.00 Td ([M3] 3. Smart Match Engine) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 441.00 Td (Dynamic 0-99% compatibility score.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 423.00 Td (Category match \(+30 points\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 405.00 Td (Skill overlap \(+20 points\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 387.00 Td (Haversine distance \(+15 points\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 369.00 Td (Rating & reputation bonus \(+10 pts\).) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 276.00 75.00 l 279.87 75.00 283.00 78.13 283.00 82.00 c 283.00 263.00 l 283.00 266.87 279.87 270.00 276.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([M4] 4. Real-Time Chat) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 226.00 Td (Split-pane desktop conversation) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 213.00 Td (view.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 208.00 Td (Zero-refresh Fetch API messaging.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 190.00 Td (Sent & read status indicators.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 172.00 Td (1-click block & report buttons.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 154.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 154.00 Td (Mobile full-screen chat drawer.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 310.00 75.00 m 531.00 75.00 l 534.87 75.00 538.00 78.13 538.00 82.00 c 538.00 263.00 l 538.00 266.87 534.87 270.00 531.00 270.00 c 310.00 270.00 l 306.13 270.00 303.00 266.87 303.00 263.00 c 303.00 82.00 l 303.00 78.13 306.13 75.00 310.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 310.00 267.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 319.00 246.00 Td ([M5] 5. Emergency & Map) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 226.00 Td (High-contrast red SOS emergency hub.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 208.00 Td (Interactive Leaflet OpenStreetMap.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 190.00 Td (Green pins: Verified Helpers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 172.00 Td (Red pins: Help Needed.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 319.00 154.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 331.00 154.00 Td (Yellow pins: Urgent crises.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 566.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 566.00 270.00 l 562.13 270.00 559.00 266.87 559.00 263.00 c 559.00 82.00 l 559.00 78.13 562.13 75.00 566.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 566.00 267.00 221.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 575.00 246.00 Td ([M6] 6. Admin & Reputation) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 226.00 Td (Admin telemetry: Users, tasks,) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 213.00 Td (reports.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 208.00 Td (Account suspension & reactivation.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 190.00 Td (Abuse dispute resolution queue.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 172.00 Td (Reputation points \(+20/+10/+5\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 575.00 154.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 587.00 154.00 Td (Milestone community badges.) Tj ET Q
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 27 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 5559 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 11 ? IMPLEMENTATION) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Implementation Highlights) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 11 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 290.00 m 401.00 290.00 l 404.87 290.00 408.00 293.13 408.00 297.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 297.00 l 48.00 293.13 51.13 290.00 55.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([ALG] Smart Matching Algorithm Implementation) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 441.00 Td (Haversine Formula: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 174.80 441.00 Td (d = 2R * asin\(sqrt\(sin^2\(dLat/2\) + cos*cos*sin^2\(dLon/2\)\)\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 423.00 Td (Proximity Tiers: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 423.00 Td (d <= 5 km: +15 pts | d <= 15 km: +10 pts | Same City: +5 pts.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 405.00 Td (Tokenized Skills: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 169.60 405.00 Td (Set intersection of required keywords vs volunteer profile.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 387.00 Td (Live Execution: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 159.20 387.00 Td (Calculates dynamically on every request page view without caching.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 290.00 m 787.00 290.00 l 790.87 290.00 794.00 293.13 794.00 297.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 297.00 l 434.00 293.13 437.13 290.00 441.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([MSG] Private Chat & Polling Engine) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 441.00 Td (Non-Blocking UX: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 550.40 441.00 Td (AJAX Fetch API sends messages without browser reload.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 423.00 Td (Auto-Scroll: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 529.60 423.00 Td (Chat viewport auto-scrolls to bottom on message receipt.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 405.00 Td (Read Status: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 529.60 405.00 Td (Updates read_status = 1 when receiver opens conversation.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 387.00 Td (Safety Filter: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 540.00 387.00 Td (Checks blocked_users table before establishing conversation.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([SCR] Core Implementation Modules & View Routes) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 226.00 Td (Landing Page: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 148.80 226.00 Td (index.php / index.html ? Dynamic stats, category grid, OpenStreetMap view.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 208.00 Td (Find Help Directory: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 185.20 208.00 Td (requests/view.php ? Search, filter, distance sorting, smart match badge.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 190.00 Td (Private Messaging: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 174.80 190.00 Td (messages/index.php ? WhatsApp-style two-column communication console.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 172.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 172.00 Td (User Dashboard: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 159.20 172.00 Td (dashboard/index.php ? Greeting, stats tiles, active requests, recommended helpers.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 154.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 154.00 Td (Admin Console: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 154.00 154.00 Td (admin/index.php ? System telemetry, user management, report resolution queue.) Tj ET Q
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 29 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+29 0 obj
+<< /Length 5299 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 12 ? OUTPUT / RESULTS) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Working Output & Empirical Results) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 12 of 15) Tj ET Q
+q 0.120 0.190 0.320 rg 0.200 0.280 0.420 RG 1 w 48.00 446.00 746.00 24.00 re B Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 56.00 453.00 Td (Test Case / Operation) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 196.00 453.00 Td (Input / Action Taken) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 386.00 453.00 Td (Observed System Output) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 9.5 Tf 696.00 453.00 Td (Verification Status) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 422.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 429.00 Td (User Registration) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 429.00 Td (New user info with valid email) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 429.00 Td (Account created, Bcrypt hashed, redirected) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 429.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 398.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 405.00 Td (Duplicate Prevention) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 405.00 Td (Attempt registration with existing email) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 405.00 Td (HTTP 409 Conflict; descriptive alert shown) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 405.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 374.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 381.00 Td (Smart Match Engine) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 381.00 Td (Query computer repair in Mumbai) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 381.00 Td (Rahul Sharma scored 96% Match \(0.7 km away\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 381.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 350.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 357.00 Td (Emergency Aid Map) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 357.00 Td (View Leaflet OpenStreetMap) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 357.00 Td (Pins rendered: Green \(Helper\), Red \(Need\), Yellow \(Urgent\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 357.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 326.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 333.00 Td (Private Messaging) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 333.00 Td (Send message in active chat) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 333.00 Td (Message appended instantly with single tick \(v\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 333.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 302.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 309.00 Td (Read Receipts) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 309.00 Td (Recipient logs in and opens chat) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 309.00 Td (Sender view updates to double tick \(vv\)) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 309.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.070 0.110 0.180 rg 0.150 0.220 0.340 RG 1 w 48.00 278.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 285.00 Td (Review Fraud Prevention) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 285.00 Td (Submit 2nd review for same request) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 285.00 Td (Database rejects duplicate review via composite key) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 285.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.090 0.130 0.220 rg 0.150 0.220 0.340 RG 1 w 48.00 254.00 746.00 24.00 re B Q
+q 0.950 0.970 1.000 rg BT /F2 8.5 Tf 56.00 261.00 Td (Admin Governance) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 196.00 261.00 Td (Admin resolves report & bans user) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 386.00 261.00 Td (User status updated to suspended; login blocked) Tj ET Q
+q 0.750 0.820 0.900 rg BT /F1 8.5 Tf 696.00 261.00 Td (SUCCESS / PASS) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 60.00 m 787.00 60.00 l 790.87 60.00 794.00 63.13 794.00 67.00 c 794.00 118.00 l 794.00 121.87 790.87 125.00 787.00 125.00 c 55.00 125.00 l 51.13 125.00 48.00 121.87 48.00 118.00 c 48.00 67.00 l 48.00 63.13 51.13 60.00 55.00 60.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 122.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 101.00 Td (Conclusion of Results) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 81.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 81.00 Td (100% of tested user flows completed successfully. Zero SQL vulnerabilities identified; 0ms dropped requests.) Tj ET Q
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 31 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+31 0 obj
+<< /Length 5486 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 13 ? CONCLUSION) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Conclusion & Project Summary) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 13 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 290.00 m 401.00 290.00 l 404.87 290.00 408.00 293.13 408.00 297.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 297.00 l 48.00 293.13 51.13 290.00 55.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([1] Key Project Achievements) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 441.00 Td (Engineered a production-ready, full-stack community) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 428.00 Td (assistance platform.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (Successfully bridged neighborhood empathy with software) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 410.00 Td (engineering.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (Implemented mathematical smart matching replacing manual) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 392.00 Td (search.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (Guaranteed user privacy and trust through mutual) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 374.00 Td (post-completion ratings.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 369.00 Td (Delivered a zero-dependency autonomous server running) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 356.00 Td (instantly on macOS.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 290.00 m 787.00 290.00 l 790.87 290.00 794.00 293.13 794.00 297.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 297.00 l 434.00 293.13 437.13 290.00 441.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([2] Educational & Technical Learnings) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 441.00 Td (Mastered 3NF relational database normalization and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 428.00 Td (referential constraints.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 423.00 Td (Implemented parameterized SQL queries protecting against) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 410.00 Td (injection.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 405.00 Td (Applied spherical trigonometry \(Haversine formula\) for) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 392.00 Td (geographic sorting.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 387.00 Td (Gained deep expertise in asynchronous JavaScript and) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 374.00 Td (responsive UI design.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 369.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 369.00 Td (Architected role-based security protecting administrative) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 356.00 Td (governance.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([3] Final Project Takeaway) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 226.00 Td (Tagline: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 122.80 226.00 Td ("Connect. Help. Make a Difference.") Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 208.00 Td (Real-World Impact: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 174.80 208.00 Td (HELPHUB demonstrates that web technologies can transform neighborhood mutual aid into an organized, transparent, and dignified experience for all citizens.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 190.00 Td (Deployment Readiness: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 190.40 190.00 Td (The platform is fully deployable to cloud hosting \(Apache/Nginx/Docker\) or local networks.) Tj ET Q
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 33 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+33 0 obj
+<< /Length 5888 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 14 ? FUTURE SCOPE) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (Future Scope & Enhancements) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 14 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 290.00 m 401.00 290.00 l 404.87 290.00 408.00 293.13 408.00 297.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 297.00 l 48.00 293.13 51.13 290.00 55.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([WS] 1. Real-Time WebSockets Engine) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 441.00 Td (Transition from AJAX polling to bidirectional WebSockets.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 423.00 Td (Enable instant typing indicators \("Rahul is typing..."\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 405.00 Td (Sub-10ms latency for urgent emergency chat coordination.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 387.00 Td (Native browser audio chime notifications on new messages.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 290.00 m 787.00 290.00 l 790.87 290.00 794.00 293.13 794.00 297.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 297.00 l 434.00 293.13 437.13 290.00 441.00 290.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([AI] 2. AI-Powered Emergency NLP Triage) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 441.00 Td (Natural Language Processing \(NLP\) to parse emergency) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 428.00 Td (requests.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 423.00 Td (Auto-detect critical symptoms \(e.g., cardiac arrest, blood) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 410.00 Td (loss\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 405.00 Td (Automated SOS dispatch to nearby certified first-responders.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 387.00 Td (Sentiment analysis to flag distress levels in community) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 374.00 Td (posts.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 401.00 75.00 l 404.87 75.00 408.00 78.13 408.00 82.00 c 408.00 263.00 l 408.00 266.87 404.87 270.00 401.00 270.00 c 55.00 270.00 l 51.13 270.00 48.00 266.87 48.00 263.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 267.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 246.00 Td ([APP] 3. Native Mobile Apps \(iOS/Android\)) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 226.00 Td (Cross-platform mobile apps built with React Native /) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 213.00 Td (Flutter.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 208.00 Td (Background push notifications for nearby emergency alerts.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 190.00 Td (Live volunteer GPS navigation tracking.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 172.00 Td (Offline-first sync for areas with disrupted network) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 76.00 159.00 Td (coverage.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 263.00 l 794.00 266.87 790.87 270.00 787.00 270.00 c 441.00 270.00 l 437.13 270.00 434.00 266.87 434.00 263.00 c 434.00 82.00 l 434.00 78.13 437.13 75.00 441.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 267.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 246.00 Td ([NGO] 4. Institutional NGO & Hospital Portals) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 226.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 226.00 Td (Dedicated verification portals for registered NGOs and Red) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 213.00 Td (Cross.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 208.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 208.00 Td (Direct integration with hospital blood banks for donor) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 195.00 Td (calls.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 190.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 190.00 Td (Corporate Social Responsibility \(CSR\) volunteering tracking.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 172.00 Td (-) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.2 Tf 462.00 172.00 Td (Multilingual support \(Hindi, Marathi, regional languages\).) Tj ET Q
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Contents 35 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+35 0 obj
+<< /Length 5532 >>
+stream
+q 0.040 0.060 0.110 rg 0.00 0.00 842.00 595.00 re f Q
+q 0.140 0.450 0.950 rg 0.00 591.00 842.00 4.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 10 Tf 48.00 553.00 Td (SLIDE 15 ? REFERENCES) Tj ET Q
+q 0.970 0.980 1.000 rg BT /F2 22 Tf 48.00 523.00 Td (References & Bibliography) Tj ET Q
+q 0.180 0.250 0.380 RG 1 w 48.00 511.00 m 794.00 511.00 l S Q
+q 0.150 0.220 0.350 RG 1 w 48.00 40.00 m 794.00 40.00 l S Q
+q 0.580 0.640 0.720 rg BT /F1 8.5 Tf 48.00 25.00 Td (HELPHUB ? Full-Stack Community Mutual Aid Platform) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 8.5 Tf 722.00 25.00 Td (Slide 15 of 15) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 280.00 m 401.00 280.00 l 404.87 280.00 408.00 283.13 408.00 287.00 c 408.00 478.00 l 408.00 481.87 404.87 485.00 401.00 485.00 c 55.00 485.00 l 51.13 485.00 48.00 481.87 48.00 478.00 c 48.00 287.00 l 48.00 283.13 51.13 280.00 55.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 461.00 Td ([BK] Books & Academic Textbooks) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 441.00 Td (1. Lockhart, J.: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 164.40 441.00 Td (Modern PHP: New Features and Good Practices, O'Reilly Media.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 423.00 Td (2. Kleppmann, M.: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 169.60 423.00 Td (Designing Data-Intensive Applications, O'Reilly Media.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 405.00 Td (3. Robbins, J.: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 159.20 405.00 Td (Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 387.00 Td (4. Elmasri, R. & Navathe, S.: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 232.00 387.00 Td (Fundamentals of Database Systems \(7th Edition\).) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 441.00 280.00 m 787.00 280.00 l 790.87 280.00 794.00 283.13 794.00 287.00 c 794.00 478.00 l 794.00 481.87 790.87 485.00 787.00 485.00 c 441.00 485.00 l 437.13 485.00 434.00 481.87 434.00 478.00 c 434.00 287.00 l 434.00 283.13 437.13 280.00 441.00 280.00 c B Q
+q 0.140 0.450 0.950 rg 441.00 482.00 346.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 450.00 461.00 Td ([RP] Research Papers & Articles) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 441.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 441.00 Td (1. IEEE Paper: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 540.00 441.00 Td (Peer-to-Peer Disaster Response Networks & Community Mutual Aid.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 423.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 423.00 Td (2. ACM Transactions: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 571.20 423.00 Td (Civic Tech and Social Computing in Hyperlocal Communities.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 405.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 405.00 Td (3. Haversine Math: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 560.80 405.00 Td (Sinnott, R.W., 'Virtues of the Haversine', Sky and Telescope.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 450.00 387.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 462.00 387.00 Td (4. Web Security: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 550.40 387.00 Td (OWASP Top 10 Security Risks and Mitigation Guidelines.) Tj ET Q
+q 0.080 0.120 0.220 rg 0.180 0.260 0.400 RG 1 w 55.00 75.00 m 787.00 75.00 l 790.87 75.00 794.00 78.13 794.00 82.00 c 794.00 253.00 l 794.00 256.87 790.87 260.00 787.00 260.00 c 55.00 260.00 l 51.13 260.00 48.00 256.87 48.00 253.00 c 48.00 82.00 l 48.00 78.13 51.13 75.00 55.00 75.00 c B Q
+q 0.140 0.450 0.950 rg 55.00 257.00 732.00 3.00 re f Q
+q 0.220 0.740 0.970 rg BT /F2 13 Tf 64.00 236.00 Td ([REF] Documentation Standards & Web Resources) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 216.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 216.00 Td (Mozilla Developer Network \(MDN\): ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 247.60 216.00 Td (Fetch API, CSS Custom Properties, and ES6+ JavaScript Specifications.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 198.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 198.00 Td (PHP Official Manual: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 185.20 198.00 Td (PHP Data Objects \(PDO\), Bcrypt Password Hashing \(password_hash/verify\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 180.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 180.00 Td (Leaflet.js Documentation: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 211.20 180.00 Td (Open-Source Mobile-Friendly Interactive Maps API \(leafletjs.com\).) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 162.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 162.00 Td (OpenStreetMap: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 154.00 162.00 Td (OpenStreetMap Foundation Tile Servers and Geocoding APIs.) Tj ET Q
+q 0.220 0.740 0.970 rg BT /F2 11 Tf 64.00 144.00 Td (-) Tj ET Q
+q 0.950 0.970 1.000 rg BT /F2 9.5 Tf 76.00 144.00 Td (SQLite Documentation: ) Tj ET Q
+q 0.780 0.830 0.900 rg BT /F1 9.5 Tf 190.40 144.00 Td (SQLite ACID Relational Storage and Full-Text Search Engine.) Tj ET Q
+endstream
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000219 00000 n 
+0000000316 00000 n 
+0000000418 00000 n 
+0000000523 00000 n 
+0000000669 00000 n 
+0000007836 00000 n 
+0000007982 00000 n 
+0000013968 00000 n 
+0000014116 00000 n 
+0000020562 00000 n 
+0000020710 00000 n 
+0000026658 00000 n 
+0000026806 00000 n 
+0000031975 00000 n 
+0000032123 00000 n 
+0000038163 00000 n 
+0000038311 00000 n 
+0000046141 00000 n 
+0000046289 00000 n 
+0000052094 00000 n 
+0000052242 00000 n 
+0000058137 00000 n 
+0000058285 00000 n 
+0000066648 00000 n 
+0000066796 00000 n 
+0000072408 00000 n 
+0000072556 00000 n 
+0000077908 00000 n 
+0000078056 00000 n 
+0000083595 00000 n 
+0000083743 00000 n 
+0000089684 00000 n 
+0000089832 00000 n 
+trailer
+<< /Size 36 /Root 1 0 R >>
+startxref
+95417
+%%EOF

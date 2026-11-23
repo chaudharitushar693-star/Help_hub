@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "Project Root",
+			"path": "."
+		},
+		{
+			"name": "Admin Dashboard",
+			"path": "admin"
+		},
+		{
+			"name": "PHP API Backend",
+			"path": "api"
+		},
+		{
+			"name": "Assets (CSS / JS)",
+			"path": "assets"
+		},
+		{
+			"name": "Database Schema",
+			"path": "database"
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"editor.formatOnSave": true
+	}
+}

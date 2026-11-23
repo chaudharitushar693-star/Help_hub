@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Profile | HELPHUB</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.php">
+    <div class="brand-icon">❤</div>
+    <span>HELP<span>HUB</span></span>
+  </a>
+  <nav class="nav-links">
+    <a href="../index.php">Home</a>
+    <a href="../requests/view.php">Find Help</a>
+    <a href="../offers/view.php">Offer Help</a>
+    <a href="../community/index.php">Community</a>
+    <a href="../messages/index.php">Messages</a>
+    <a href="../dashboard/index.php">Dashboard</a>
+  </nav>
+  <div class="nav-actions" id="navActions"></div>
+</header>
+
+<main class="section" id="profileMain">
+  <div class="card" style="padding:36px; margin-bottom:30px;">
+    <div style="display:flex; gap:26px; align-items:center; flex-wrap:wrap;">
+      <div class="avatar avatar-lg" id="pAvatar" style="width:96px; height:96px; font-size:36px;">R</div>
+      <div style="flex:1; min-width:260px;">
+        <div style="display:flex; align-items:center; gap:12px; margin-bottom:4px; flex-wrap:wrap;">
+          <h1 style="font-size:28px; font-family:var(--font-heading);" id="pFullName">Rahul Sharma</h1>
+          <span class="reputation-badge" id="pRepPoints">🏆 180 Reputation</span>
+          <span class="pill" id="pRating" style="background:var(--success-light); color:#065f46;">⭐ 4.9/5 (14 reviews)</span>
+        </div>
+        <p style="color:var(--text-muted); font-size:14px; margin-bottom:12px;" id="pMeta">@rahul_tech • 📍 Bhopal, Madhya Pradesh</p>
+        <p style="font-size:15px; line-height:1.6; max-width:700px; margin-bottom:16px;" id="pBio">
+          Software engineer passionate about helping students and elders with computer hardware and technical setups.
+        </p>
+        <div id="pSkills" style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+          <strong style="font-size:13px; color:var(--text-muted);">Skills:</strong>
+          <span class="pill" style="background:var(--primary-light); color:var(--primary); font-size:12px;">Computer Repair</span>
+          <span class="pill" style="background:var(--primary-light); color:var(--primary); font-size:12px;">Python</span>
+          <span class="pill" style="background:var(--primary-light); color:var(--primary); font-size:12px;">Networking</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; min-width:180px;">
+        <button class="btn btn-primary" id="pMessageBtn">💬 Message</button>
+        <button class="btn btn-outline btn-sm" onclick="reportUser()">⚠️ Report Member</button>
+        <button class="btn btn-outline btn-sm" onclick="blockUser()">🚫 Block User</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:18px; margin-bottom:34px;">
+    <div class="card" style="padding:20px; text-align:center;">
+      <b style="font-size:26px; color:var(--success);" id="pHelpsGiven">15</b>
+      <p style="color:var(--text-muted); font-size:13px;">Community Helps Given</p>
+    </div>
+    <div class="card" style="padding:20px; text-align:center;">
+      <b style="font-size:26px; color:var(--primary);" id="pHelpsReceived">2</b>
+      <p style="color:var(--text-muted); font-size:13px;">Helps Received</p>
+    </div>
+    <div class="card" style="padding:20px; text-align:center;">
+      <b style="font-size:26px; color:#8b5cf6;">⭐ 4.9</b>
+      <p style="color:var(--text-muted); font-size:13px;">Community Trust Score</p>
+    </div>
+    <div class="card" style="padding:20px; text-align:center;">
+      <b style="font-size:26px; color:var(--warning);">1</b>
+      <p style="color:var(--text-muted); font-size:13px;">Active Help Offers</p>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1.8fr 1.2fr; gap:30px;">
+    <div>
+      <div class="section-head" style="margin-bottom:18px;">
+        <h3>Community Ratings & Reviews</h3>
+      </div>
+      <div style="display:grid; gap:14px;" id="pReviewsContainer">
+        <div class="card" style="padding:20px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <div class="user-mini">
+              <div class="avatar avatar-sm">N</div>
+              <div>
+                <strong style="font-size:14px;">Neha Gupta</strong>
+                <span style="font-size:12px; color:var(--text-muted);">• 2 days ago</span>
+              </div>
+            </div>
+            <span style="color:#f59e0b; font-size:14px;">★★★★★</span>
+          </div>
+          <p style="font-size:14px; line-height:1.6;">Rahul reached out within 30 minutes of our post and personally diagnosed the PC. Exceptionally kind and humble human being!</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-head" style="margin-bottom:18px;">
+        <h3>Active Help Offers</h3>
+      </div>
+      <div style="display:grid; gap:14px;">
+        <div class="card" style="padding:18px;">
+          <span class="pill" style="background:var(--primary-light); color:var(--primary); font-size:11px; margin-bottom:6px;">OFFER</span>
+          <h4 style="font-size:15px; margin-bottom:6px;">Free PC/Laptop Troubleshooting & Software Setup</h4>
+          <p style="font-size:13px; color:var(--text-muted); margin-bottom:10px;">I can diagnose hardware faults and install Linux/Windows for students.</p>
+          <small style="color:var(--text-muted); font-size:12px;">🕒 Availability: Saturdays & Sundays 10am-6pm</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="../assets/js/app.js"></script>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const targetId = urlParams.get('id') || 2;
+
+$('#pMessageBtn').onclick = () => {
+  openChatWithUser(targetId, $('#pFullName').textContent);
+};
+
+function reportUser() {
+  const reason = prompt('State reason for reporting user:');
+  if (reason) {
+    apiFetch('../api/safety.php?action=report', {
+      method: 'POST',
+      body: JSON.stringify({ item_type: 'user', item_id: targetId, reason: reason })
+    }).then(res => showToast(res.message, 'success')).catch(e => showToast(e.message, 'error'));
+  }
+}
+
+function blockUser() {
+  if (confirm('Block this user?')) {
+    apiFetch('../api/safety.php?action=block', {
+      method: 'POST',
+      body: JSON.stringify({ target_user_id: targetId })
+    }).then(res => showToast(res.message, 'info')).catch(e => showToast(e.message, 'error'));
+  }
+}
+</script>
+</body>
+</html>
